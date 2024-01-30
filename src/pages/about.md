@@ -1,6 +1,8 @@
 ---
-title: "About"
-description: "About this site. We're doing it live!"
+title: "About this site"
+description: "We're doing it live! Really. I'm gonna build whatever this site becomes right out in the open so everybody can see my half-baked ideas and dead ends."
+date: Last Modified
+parent: 'Web Things'
 ---
 
 ## We're doing it live
@@ -11,6 +13,9 @@ This site is a little clearinghouse for various experiments and projects I've ta
 
 We're starting from the [11ty Netlify jumpstart template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) and going from there. If I don't abandon the project, it should be constantly changing. We'll see where it goes.
 
+### {{ page.date | prettyDate}}
+
+As I begin to diverge from the perfectly nice [11ty Netlify jumpstart template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate), I've changed the main logo image and theme colors. Those who have known me for awhile will recognize the horseshoe isn't just a nod to this site's name, it's also the same horseshoe found on Gretsch guitars, in particular the Gretsch 6120 Chet Atkins. I created the Gretsch Pages in 1995 and over time it became the leading resource and community for Gretsch guitar owners. After 25 years I retired, but not without some regrets. It was a huge part of my life for a very long time. Just seemed right to have a little homage here.
 
 
 <!--

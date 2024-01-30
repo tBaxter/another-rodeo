@@ -11,8 +11,9 @@ body {
 
 main,
 main.tdbc-container {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-top: 0;
 }
 
 footer {
@@ -35,7 +36,7 @@ article {
   max-width: 120ch;
   margin-right: auto;
   margin-left: auto;
-  padding: 1rem;
+  padding: 0 1rem 0;
 }
 
 .tdbc-column-container {
@@ -66,8 +67,9 @@ ul.tdbc-column-container {
   min-height: 40vh;
   place-content: center;
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 1;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .tdbc-row {
@@ -93,3 +95,20 @@ hr {
   margin-bottom: 4rem;
   border: 1px solid tdbc-color("secondary");
 }
+
+.affiliate {
+  border-radius: $tdbc-border-radius;
+  background: #efefef;
+  border: 1px solid #edd;
+  font-size: 0.875em;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+}
+
+figure { 
+  margin: 1em 0;
+  background-color: #eee;
+  border-radius: $tdbc-border-radius;
+  overflow: hidden;
+}
+figcaption { padding: 0.5em }

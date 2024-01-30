@@ -1,0 +1,1 @@
+<p class="affiliate">As an Amazon Associate I earn from qualifying purchases. In other words, I get commissions for purchases made through links in this post. When you follow a link and buy something, it doesn't cost you anything extra, but I may make buck or two. So thank you!</p>
