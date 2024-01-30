@@ -21,7 +21,10 @@ In 2019 I became convinced that we should have a camper. And not just any camper
 
   Through a complicated series of events I won't get into here, Boler's original fiberglass molds ended up in the hands of a bunch of different manufacturers, including this Eco, which was built in Nebraska in 1971. I'm told the factory later specialized in fiberglass prosthesis when they got out of trailer-building. 
   
-  Anyways, the original Boler design continues on today under the Scamp name. Pretty amazing longevity, but great design endures.
+  Anyways, the original Boler design continues on today under the Scamp name. Pretty amazing longevity, but great design endures. If you're interested, there's [a lot of history about them out there](http://www.boler.ca/2017/03/05/history-of-the-boler/).
+
+  {% figure img_path "floorplan.jpeg" "Here's the original Boler floorplan, still in use in Scamps today (and in my Eco). Photo courtesy of Scamp Trailers." %}
+
 
 ### The teardown
 
