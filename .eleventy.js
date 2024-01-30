@@ -8,6 +8,8 @@ const slugify = require("slugify");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
+const { DateTime } = require("luxon");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
@@ -18,6 +20,46 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/favicon.png");
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+  // adds ability to easily create figure/figcaption
+  eleventyConfig.addShortcode("figure", function (img_path, url, desc, classname="") {
+    return `<figure class="image ${classname}">
+      <img src="${ img_path }${ url }" alt="${ desc }" />
+      <figcaption>${ desc }</figcaption>
+    </figure>`
+  });
+  // prettifier for dates
+  eleventyConfig.addFilter("prettyDate", dateObj => {
+    if (dateObj) {
+      return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+    }
+  });
+  // Creates a list of parents suitable for nav from 
+  // pages with "parent" in the front matter.
+  // Also creates a slug for easy linking
+  eleventyConfig.addCollection("parents", function (collection) {
+    let parents = [];
+    collection.getAll().forEach(function (item) {
+      if ("parent" in item.data) {
+        let p = item.data.parent;
+        let slug = slugify(p.toLowerCase().replace("'","-"))
+        // Quick check to see if the parent already exists.
+        // the list of parents should be small, so this should be reasonably performant.
+        pObj = parents.find(obj => obj.slug == slug);
+        if (pObj) {
+          pObj.posts.push(item)
+        } else {
+          // the item is not yet represented in the list of parents, so we'll create it.
+          parents.push({
+            name: p,
+            slug: slug,
+            posts: [item]
+          });
+        }
+      }
+    });
+    return parents;
+  });
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({

@@ -1,20 +1,19 @@
 ---
 title: "About"
-description: "Review feature info and customization details."
+description: "About this site. We're doing it live!"
 ---
 
-## Intro to Jumpstart
+## We're doing it live
 
-This jumpstart is intended to be _just enough_ to be a functional site/blog using 11ty, and also to introduce essential 11ty features.
+I'm Carter Baxter. I like to tinker with things. You can read more about me on Linkedin, on Github, or on Mastodon. 
 
-[**Review the "Quick Start"**](/#quickstart) on the home page for how to get this starter up and running for your project.
+This site is a little clearinghouse for various experiments and projects I've taken on and tinkered. Because it's all about the projects, we'll treat the site as a project, too, and build it out live. 
 
-### Colophon
+We're starting from the [11ty Netlify jumpstart template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) and going from there. If I don't abandon the project, it should be constantly changing. We'll see where it goes.
 
-Hi, I'm Stephanie Eckles - @5t3ph on [Twitter](https://twitter.com/5t3ph), [Github](https://github.com/5t3ph), [CodePen](https://codepen.com/5t3ph), and [DEV](https://dev.to/5t3ph). You may know me as the author of [ModernCSS.dev](https://moderncss.dev) or the creator of [StyleStage.dev](https://stylestage.dev). I can also be found on [egghead as an instructor](https://egghead.io/instructors/stephanie-eckles?af=2s65ms).
 
-> Check out my extended collection of Eleventy resources available on [11ty.Rocks](https://11ty.rocks)!
 
+<!--
 ### Jump to:
 
 - [Global Site Data and .env](#global-site-data-and-env)
@@ -186,3 +185,4 @@ Prettier extension and update your VSCode settings to "Format on Save".
 However, to format template files Prettier doesn't recognize like `.njk`, you can update the "Language Mode" on the currently open file from "Nunjucks" (or other current templating language) to "HTML" to allow formatting to be applied. Then, flip it back to re-allow the syntax highlighting if needed.
 
 This is located in the VSCode bottom toolbar near the right-hand side and will display the value of the current file's detected language. Click the name to open the selector.
+-->

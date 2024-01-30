@@ -57,7 +57,11 @@ img {
   display: block;
   max-width: 100%;
 }
-
+figure { 
+  margin: 1em 0;
+  background-color: #eee;
+}
+figcaption { padding: 0.5em }
 /* Inherit fonts for inputs and buttons */
 input,
 button,
