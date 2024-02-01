@@ -1,8 +1,7 @@
 ---
 title: "Not funny, Dad"
 description: 'The end result of a fascination with obscure government data sources and dad jokes.'
-started: 2019-01-21
-date: Last Modified
+date: 2024-01-27
 parent: 'Web Things'
 ---
 
