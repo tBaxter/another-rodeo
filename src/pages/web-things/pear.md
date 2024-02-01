@@ -4,11 +4,9 @@ description: 'Comparing text from two documents easily, with no sign-up or data 
 year: 2024
 date: 2024-01-10
 tags: web-things
-permalink: https://pear.fly.dev
+remote_link: https://pear.fly.dev
 parent: 'Web Things'
 ---
-
-## [pear.fly.dev](https://pear.fly.dev)
 
 In late 2020 or early 2021, for a number of different reasons I decided I wanted to get a better understanding of Natural Language Processing (NLP) and Python's Natural Language Toolkit (NLTK). Maybe it's vestiges of my career in journalism, but the idea of converting a mess of text into something the machine can understand and do something useful with appeals to me.
 
@@ -28,5 +26,5 @@ To learn, and to solve a simple need I had to compare docs.
 - More Flask. As a died-in-the-wool Django person, it was really interesting learning more about Flask's approach to things.
 
 ### Where is it?
-- [The site](https://pear.fly.dev)
+- [The site]( {{ remote_link }})
 - [The repo](https://github.com/tBaxter/pear)

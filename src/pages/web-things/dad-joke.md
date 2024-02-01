@@ -5,8 +5,6 @@ date: 2024-01-27
 parent: 'Web Things'
 ---
 
-## [dadjoke.fly.dev](https://dadjoke.fly.dev)
-
 About every other year or so I'm reminded that the U.S. Federal government has a site called Fatherhood.gov, and tucked away inside that tiny little backwater in the vast sea of government web sites there is a collection of dad jokes. Yes, the United States government keeps and hosts a collection of dad jokes, and because they are the work the US government, they are owned by and open to the public.
 
 How this came to be is a fascinating story. Fatherhood.gov was established as part of the National Responsible Fatherhood Clearinghouse (NRFC), which came to be through the Deficit Reduction Act of 2005. 

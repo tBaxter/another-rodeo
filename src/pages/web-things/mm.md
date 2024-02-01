@@ -1,8 +1,8 @@
 ---
 title: "Maturity Model Generator"
-description: "Need a maturity model? We've got you covered."
+description: "Need a maturity model? Just enjoy a silly joke? Either way, we've got you covered."
 tags: web-things
-permalink: "https://maturity-model.online"
+remote_link: "https://maturity-model.online"
 parent: "Web Things"
 date: 2023-08-08 # Last updated
 img_path: /img/web-things/
@@ -39,5 +39,5 @@ To learn some mini JS frameworks, and because I thought I was being funny.
 ### Where is it?
 
 
-- [The site](https://maturity-model.online)
+- [The site]( {{ remote_link }} )
 - [The repo](https://github.com/tBaxter/mm_gen)
