@@ -15,6 +15,8 @@ In 2019 I became convinced that we should have a camper. And not just any camper
 
   {% figure img_path "garage.jpg" "It just *barely* fit in my garage bay. That made the restoration a lot easier. Just go out to the garage and get to work." %}
 
+{% include 'affiliate.md' %}
+
   ### So what is this thing, anyway?
 
   In the '60s a company called Boler pioneered these little fiberglass "egg" campers. Where most campers at the time nailed aluminum into a wooden structure to make the camper (or in the case of Airstream, an aluminum frame) these were different: there  was no framework for the body, because the fiberglass is self-supporting.  So they're extraordinarily lightweight, easy to tow, and much less likely to break, leak or just fall apart. 

@@ -11,6 +11,8 @@ In early 2020, with my [restoration of a 1971 fiberglass "egg" camper well under
 
 All of the code for this project is in the [pi-smarter-camper repo](https://github.com/tBaxter/pi-smart-camper).
 
+{% include 'affiliate.md' %}
+
 To get started, I looked at a Raspberry Pi I had recently picked up (back when you could still do that), it seemed like it would make the perfect base. It's small, affordable, works well on low voltage and is basically built for the sort of experimenting I'd be doing. 
 
 So I took a good guess at what I'd want and started putting some parts together in a a decent-sized [water-resistant enclosure](https://amzn.to/31TiPL3). It was bigger than I needed, but would still tuck neatly into the bottom of the closet in the trailer, by the wheel well.
@@ -270,3 +272,4 @@ deb https://downloads.plex.tv/repo/deb public main```
 4. Pip install dependencies from the repo's requirements file: `pip3 install -r REQUIREMENTS.txt`
 5. Set environment variables for services we're using. See settings.py for details.
 6. Follow the instructions above to re-install the web server and monitoring page
+

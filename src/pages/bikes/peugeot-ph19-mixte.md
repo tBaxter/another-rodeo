@@ -1,5 +1,5 @@
 ---
-title: Peugeot mixte
+title: Peugeot mixte restoration
 description: Parlez-vous français?
 started: 2020-10-01
 date: 2021-07-23
