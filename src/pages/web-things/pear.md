@@ -2,6 +2,7 @@
 title: "Pear"
 description: 'Comparing text from two documents easily, with no sign-up or data sharing.'
 year: 2024
+date: 2024-01-10
 tags: web-things
 permalink: https://pear.fly.dev
 parent: 'Web Things'
