@@ -56,11 +56,38 @@ Everything that was left was bleached, then gone over with a trisodium phosphate
 
   {% figure img_path "stove.jpg" "I didn't have a lot of faith in this 50-year-old propane stove, nor did I really want to be cooking eight inches away from where I'd be sleeping." %}
 
-  {% figure img_path "power-center.jpg" "This hole is where the original power center was. It didn't work, though, and didn't seem safe. I had to install a new one. You can see my marker lines where I had to enlarge the hole for it to fit." %}
-
   {% figure img_path "dinette-stripped.jpg" "Here the kitchen unit is nearly completely stripped down, with the original sink and stove gone. You can also see where I filled in some more holes on the front. I didn't need to fill the ones on top because I was building a new countertop. " %}
 
-  {% figure img_path "power-center-in.jpg" "The new power center (shown without its cover in this pic) provides safe power for three 110-volt circuits and seven 12-volt circuits , which is more than enough for my purposes. Nearly all of the trailer is on low-voltage 12-volt circuits, including the LED lighting and the entertainment center. The high voltage is reserved for the AC unit, the refrigerator, and a couple of outlets. I was pretty proud when I wired it all up and it worked with no extra smoke the first time I flipped the switch." %}
+
+### Troubleshooting power issues
+Having a usable electrical system in the trailer was quite a journey. When I first bought the trailer, I plugged it into 110V household power and got... nothing. As I investigated more, I learned two things:
+
+1. The original power center for it had long ago been gutted, with the original transformer removed and a nonsensical bit of splicing put in its place. Electricity was going places, but not the places you'd want it to go, and definitely not in the right wires.
+2. That length of household wiring laying out on the trailer tongue, going nowhere? It was hooked up directly to the 110V shore power. So it's probably good that I didn't touch it. 
+
+Seriously, the more I dug in, the more it was clear the existing wiring was just flat dangerous. Major work was going to be needed.
+
+  {% figure img_path "power-center.png" "The dangerous remnants of the original power center." %}
+
+So after some research I placed an order for a <a href="https://amzn.to/2wZfLRR">Progressive Dynamics 4145 Power Center</a>. It's compact, full-featured and packs more than enough potential power for my little trailer.
+
+Before I could do anything to install the new power center I had to drill out the rivets holding the old power center in place, then significantly enlarge the height of the hole for the new power center. A few minutes with a drill to mark the corners and a jigsaw to cut through the fiberglass and that was done. <em>Note: Be sure your eyes, skin and mouth are well-covered. Fiberglass is nasty stuff.</em>
+
+  {% figure img_path "power-center.jpg" "You can see my marker lines where I had to enlarge the hole for it to fit." %}
+
+But my newly cut hole was about 1/8" too wide because of the width of the old power center. So I had to turn right around and put some trim around the new hole to keep my new height while narrowing the opening a smidge.
+
+  {% figure img_path "power-center-trimmed.png" "Trimmed and caulked. You can see the red fiberglass putty filling some more holes too." %}
+
+With the hole trimmed out and painted, I still had to figure out how to wire it up, which was pretty tricky and figuring out a good ground on a fiberglass trailer takes some head scratching. The Progressive Dynamics instructions were a little inscrutable, too, but with a little thought and a lot of googling, it went in.
+
+  {% figure img_path "power-center-in.jpg" "The new power center installed (shown without its cover in this pic)." %}
+
+On the 110 (household) voltage side, I've got one breaker dedicated to feeding the 12v converter, one dedicated solely to the air conditioner, one dedicated to the refrigerator, and one dedicated to a 110v outlet on the front of the kitchenette cabinet. I could have put more on the circuits, but why? I don't need to, and this way there's less chance of a tripped breaker.
+
+On the 12v side, the 4135 offers more circuits than I've yet found a use for, but the first thing I wanted to do was get some light. I found these <a href="https://amzn.to/2IIZqmW">super-low profile remote control LED puck lights</a> on Amazon and went ahead and ordered them. It'd be nice not doing everything by shop light. I the wall-wart off the puck lights, mounted two in the front, two in the rear, and two over the kitchenette, then wired them up to the 12v supply. Success!
+
+I was pretty proud when I wired it all up and it worked with no extra smoke the first time I flipped the switch.
 
   {% figure img_path "lighting.jpg" "And now that there's power, let there by light. I got a great deal on a set of low-profile, dimmable remote control LED puck lights dirt cheap on Amazon Prime day and hard-wired them in. There are two at each end and two over the kitchenette, all controlled from a single remote. Six lights is plenty in a 60 sq ft trailer." %}
 
