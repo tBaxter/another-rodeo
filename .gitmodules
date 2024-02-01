@@ -1,0 +1,6 @@
+[submodule "src/questions_subtree/questions-for-employers"]
+	path = src/questions_subtree/questions-for-employers
+	url = https://github.com/tBaxter/questions-for-employers
+[submodule "src/questions-submodule"]
+	path = src/questions-submodule
+	url = https://github.com/tBaxter/questions-for-employers

@@ -5,17 +5,25 @@ date: Last Modified
 parent: 'Web Things'
 ---
 
+### {{ page.date | prettyDate}}
+
+I've added a lot more content this week as I consolidate various things I've had on other websites and bring it all here. That means my Smart Camper content is here now and I'll be retiring smartercamper.com, and I've started bringing over a bunch of the bike content from re-cycled.net. I'll be retiring that one, too. 
+
+I've also pulled in the Giant List of Questions for Prospective Employers. I'm experimenting with embedding that here as a Github submodule. We'll see how well it works.
+
+### Jan 30, 2024
+
+As I begin to diverge from the perfectly nice [11ty Netlify jumpstart template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate), I've changed the main logo image and theme colors. Those who have known me for awhile will recognize the horseshoe isn't just a nod to this site's name, it's also the same horseshoe found on Gretsch guitars, in particular the Gretsch 6120 Chet Atkins. I created the Gretsch Pages in 1995 and over time it became the leading resource and community for Gretsch guitar owners. After 25 years I retired, but not without some regrets. It was a huge part of my life for a very long time. Just seemed right to have a little homage here.
+
+
 ## We're doing it live
 
-I'm Carter Baxter. I like to tinker with things. You can read more about me on Linkedin, on Github, or on Mastodon. 
+I'm Carter Baxter. I like to tinker with things. You can read more about me on [Linkedin](https://www.linkedin.com/in/carter-baxter/), on [Github](https://github.com/tBaxter), or on [Mastodon](https://mastodon.social/@tbaxter). 
 
-This site is a little clearinghouse for various experiments and projects I've taken on and tinkered. Because it's all about the projects, we'll treat the site as a project, too, and build it out live. 
+This site is a little clearinghouse for various experiments and projects I've taken on and tinkered with. Because it's all about the projects, we'll treat the site as a project, too, and build it out live. 
 
 We're starting from the [11ty Netlify jumpstart template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate) and going from there. If I don't abandon the project, it should be constantly changing. We'll see where it goes.
 
-### {{ page.date | prettyDate}}
-
-As I begin to diverge from the perfectly nice [11ty Netlify jumpstart template](https://github.com/5t3ph/11ty-netlify-jumpstart/generate), I've changed the main logo image and theme colors. Those who have known me for awhile will recognize the horseshoe isn't just a nod to this site's name, it's also the same horseshoe found on Gretsch guitars, in particular the Gretsch 6120 Chet Atkins. I created the Gretsch Pages in 1995 and over time it became the leading resource and community for Gretsch guitar owners. After 25 years I retired, but not without some regrets. It was a huge part of my life for a very long time. Just seemed right to have a little homage here.
 
 
 <!--
@@ -36,31 +44,10 @@ As I begin to diverge from the perfectly nice [11ty Netlify jumpstart template](
 - [.eleventy.js Config Features](#eleventyjs-config-features)
 - [VSCode Tips](#vscode-tips)
 
-## Global Site Data and .env
-
-As noted in the [Quick Start](/#quickstart), there are global site data variables in `src/_data/meta.json`.
-
-Those include:
-
-- `url` - should remain unchanged, reads from the single expected `.env` value of `URL`
-- `siteName` - your "brand" if you will, appended to the `<title>` tag, shown in the `sitenav`, displayed in the "hero" for the `home` layout, in the footer by the copyright, and as the identifier throughout the RSS feed
-- `siteDescription` - used in the "description" meta tag, and below the `siteName` on the `home` layout
-- `authorName` - Used in the RSS feed, intended to be your full name
-- `twitterUsername` - without the "@", this value is used for the Twitter meta tags, and for the URL of the icon link in the footer
-
-### .env
-
-See `.env-sample` for the single expected value of `URL` which should be set to your localhost. The sample uses the default 11ty port, so you can simply rename the file to `.env` if you haven't changed the port.
-
-The `URL` value is then available via the global data described previously, and can be used in templates with `meta.url`. You can see this used for the RSS feed and sitemap to create the absolute URLs.
-
 ## Template Languages Used
 
 Page templates are created as Nunjucks (`.njk`), and feature are added that expect Markdown for most page content.
 
-The home page - `src/index.njk` - is set to process first as Markdown followed by Nunjucks. This allows mixing HTML with Markdown, with benefits being code syntax highlighting and ability to include classes on HTML elements. This functionality is provided by the `templateEngineOverride: md, njk` in the frontmatter.
-
-Review the list of [available templating languages](https://www.11ty.dev/docs/languages/) in the 11ty docs.
 
 ## Layout Hierarchy and Features
 
@@ -103,8 +90,6 @@ Creating an `img` directory and keeping the pass-through directive will make ima
 
 A `prettier` config is included, with the only update being `printWidth: 100`.
 
-> As of v2.0.0, stylelint was removed.
-
 ## Sass Framework
 
 Review the [styling documentation](https://5t3ph.github.io/html-sass-jumpstart/) for the included minimal Sass framework, particularly the theme variables, to quickly customize the starter.
@@ -118,9 +103,6 @@ The only notable differences are:
 
 Additionally, the Sass in this starter is processed using LightningCSS by way of my plugin: [@11tyrocks/eleventy-plugin-sass-lightningcss](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-sass-lightningcss). This affords you access to some super modern CSS features, if you choose to use them.
 
-### Fonts
-
-The default font is [Baloo 2](https://fonts.google.com/specimen/Baloo+2) and is locally hosted with files in `fonts/`. If you swap to a different font, be sure to remove the font files as well as the `@font-face` rules at the top of `sass/_fonts.scss`, and update the `$tdbc-font-family` Sass variable.
 
 ## Anchor Links
 
