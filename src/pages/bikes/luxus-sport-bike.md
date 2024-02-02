@@ -9,9 +9,9 @@ tags:
   - luxus
   - folding-bike
 img_path: /img/bikes/luxus/
+thumb: fireball.jpeg
 parent: 'Bikes'
 ---
-
 
 I've never been overly cursed with good sense, especially when it comes to projects. If there is a lost cause, I'll find it. If there is a hopeless case, I'll take it on.
 

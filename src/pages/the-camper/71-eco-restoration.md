@@ -5,7 +5,10 @@ started: 2019-05-01
 date: 2020-01-07 # Last updated
 parent: 'The Camper'
 img_path: /img/camper/
+thumb: almost-done.jpeg
 ---
+
+  {% figure img_path "almost-done.jpeg", "The more or least restored trailer, ready for camping." %}
 
 ## 1971 Eco camper restoration
 

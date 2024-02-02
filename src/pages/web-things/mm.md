@@ -6,6 +6,7 @@ remote_link: "https://maturity-model.online"
 parent: "Web Things"
 date: 2023-08-08 # Last updated
 img_path: /img/web-things/
+thumb: mm.png
 ---
 
 ## Maturity Model Generator

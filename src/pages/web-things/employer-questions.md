@@ -1,10 +1,14 @@
 ---
-title: "The giant list of questions to ask Employers"
+title: "The giant list of questions to ask employers"
 description: "Do you get sytmied when you're asked if you have any questions in an inteview? Have we got a list for you."
 started: 2021-05-21
 date: 2024-01-07
 parent: 'Web Things'
+img_path: /img/web-things/
+thumb: cartoon-interview.jpg
 ---
+
+  {% figure img_path "cartoon-interview.jpg" "An interview goes better when you're prepared with smart questions." %}
 
 In May of 2021 I was working at [18F](https://18f.gsa.gov) in a term-limited role, so I was actively interviewing. As I interviewed I realized that companies always asked me if I had any questions for them, and more often than not I completely froze and couldn't think of any questions at all in that moment. Not a great look.
 

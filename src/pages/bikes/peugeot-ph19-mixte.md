@@ -8,6 +8,7 @@ tags:
   - peugeot
 bike: 1982 Peugeot PH19 mixte
 img_path: /img/bikes/peugeot/
+thumb: completed.jpg
 parent: 'Bikes'
 ---
 
@@ -219,3 +220,5 @@ It may have been a surprisingly great bike back in the day, or maybe it's way mo
 
 ### July 2021 - Goodbye Peugeot
 I kept the Peugeot until late July of 2021 before letting it go to make room for another project. To be honest, almost immediately I regretted letting it go, and that feeling has only intensified since. It remains possibly the prettiest, friendliest commuter/city bike I've built up yet, and I would gladly build up another Peugeot someday. Preferable a mixte.
+
+    {% figure img_path "on-the-rocks.jpg" "Beautiful bike." %}

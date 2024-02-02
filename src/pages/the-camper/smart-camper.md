@@ -1,11 +1,13 @@
 ---
 title: 'Making a smart vintage camper'
-description: 'My attempt to bring modern tech to a very old camper'
+description: 'My attempt to bring modern tech to a very old camper.'
 started: 2020-02-01
 date: 2021-05-07 # Last updated
 parent: 'The Camper'
 img_path: /img/camper/
+thumb: thumb.jpeg
 ---
+
 
 In early 2020, with my [restoration of a 1971 fiberglass "egg" camper well underway](/71-eco-restoration/) I started thinking about how it could be fun to bring some modern technology to it. I mean, if you could bring modern automation, monitoring and entertainment to a 50-year-old travel trailer, how cool is that?
 

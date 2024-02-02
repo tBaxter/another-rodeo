@@ -33,7 +33,7 @@ article {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 120ch;
+  max-width: 125ch;
   margin-right: auto;
   margin-left: auto;
   padding: 0 1rem 0;
@@ -42,7 +42,7 @@ article {
 .tdbc-column-container {
   display: grid;
   grid-gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(25ch, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(27ch, 1fr));
 }
 
 ul.tdbc-column-container {

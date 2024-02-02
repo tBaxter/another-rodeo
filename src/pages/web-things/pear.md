@@ -6,6 +6,8 @@ date: 2024-01-10
 tags: web-things
 remote_link: https://pear.fly.dev
 parent: 'Web Things'
+img_path: /img/web-things/
+thumb: pear.png
 ---
 
 In late 2020 or early 2021, for a number of different reasons I decided I wanted to get a better understanding of Natural Language Processing (NLP) and Python's Natural Language Toolkit (NLTK). Maybe it's vestiges of my career in journalism, but the idea of converting a mess of text into something the machine can understand and do something useful with appeals to me.
