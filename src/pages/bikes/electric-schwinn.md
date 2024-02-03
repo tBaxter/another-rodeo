@@ -19,7 +19,7 @@ Because I'm cheap, because it was an experiment, and also because I wasn't much 
 
   {% figure img_path "starting-point.jpeg" "The starting point for this project." %}
 
-  {% figure img_path "battery-test.jpeg" "Initially, I thought I'd mount the battery on the downtube, but this proved to be both ugly and impractical on this size frame. I eventually decided to put both the controller and battery in a classic Wald wire front basket." %}
+  {% figure img_path "battery-test.jpeg" "Initially, I thought I'd mount the battery on the downtube, but this proved to be both ugly and impractical on this size frame. I eventually decided to put both the controller and battery in a classic Wald wire basket out front." %}
 
   {% figure img_path "wheel-fork.jpeg" "The fork drop-outs had to be filed slightly to fit the oversize axle on the ebike motor. I had also hoped to run the wiring up through the tubular fork, but couldn't manage to fish it through at the fork crown. So zip ties came to the rescue. You can also see the e-bike kit throttle and wiring, right by the original 3-speed shifter." %}
 
@@ -29,7 +29,7 @@ Because I'm cheap, because it was an experiment, and also because I wasn't much 
 
   {% figure img_path "test-fit-electric.jpeg" "I did a test fit to be sure the electric bits were going to fit." %}
 
-  {% figure img_path "ikea.jpeg" "I had a cheap IKEA backpack that coincidentally fit the Wald basket perfectly and hid all the electric parts. You can also see the brake levers have changed. That's because the e-bike kit cuts power when you use the brakes, so you have to use their levers. If y" %}
+  {% figure img_path "ikea.jpeg" "I had a cheap IKEA backpack that coincidentally fit the Wald basket perfectly and hid all the electric parts. You can also see the brake levers have changed. That's because the e-bike kit cuts power when you use the brakes, so you have to use their levers." %}
 
 And that was pretty much it. I don't appear to have any pictures of the wiring, mostly because it was nearly plug and play. I do recall having to change one connector to make the battery and controller compatible, but other than that it was really just plugging things in. I did put some cable wrap on the wires to keep them tidy. But it was all pretty simple, and the instructions were decent enough.
 
