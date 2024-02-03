@@ -128,9 +128,11 @@ With enough elbow grease it started coming together, finally. At this point the 
 
 While my paint was drying I polished up the original chrome chainguard, and had a go at straightening a few wobbles in it. I'm no metalworker and it remains not-quite-straight. But also not bad. With it sitting in place you can finally start seeing it all come together.
 
+The one upside to the long and painful painting process was that I had time to find a new bottom bracket, which was an adventure. You see, the bottom bracket on this thing was strange: smaller than an American BB as found on, say, a Schwinn cruiser, but larger than a normal square taper BB. And it was push fit. After a lot of digging I came to learn it's called a Thompson bottom bracket, and they're relatively common on Dutch city bikes. Who knew! So I made my best guesstimate on what the best spindle size would be to replace the cottered cranks and ordered one from Holland. And then I waited while it came all the way from Holland.
+
 {% figure img_path "almost.jpeg" "Almost there" %}
 
-I got completely lucky stumbling across some reproduction Luxus stickers being offered by a European seller on eBay. While they weren't an exact match I was happy to even get anything in the ballpark and I thought they looked great on the bike, especially with the new red paint.
+While the bottom bracket was tricky, I got completely lucky stumbling across some reproduction Luxus stickers being offered by a European seller on eBay. While they weren't an exact match I was happy to even get anything in the ballpark and I thought they looked great on the bike, especially with the new red paint.
 
 As I started putting it back together, the first thing to do was install a new Tange headset to connect the frame and fork together. The second thing was to renovate the frame clamp knob with some white Plasti-Dip.
 
