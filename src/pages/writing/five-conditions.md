@@ -1,6 +1,6 @@
 ---
 title: "The Five Conditions for (Organizational) Improvement"
-description: "Understanding why organizations get stuck and don't change"
+description: "Understanding why organizations get stuck and won't change"
 date: 2024-02-19
 parent: 'Writing'
 img_path: /img/writing/
