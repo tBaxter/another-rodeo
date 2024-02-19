@@ -9,7 +9,7 @@ thumb: five-conditions.jpeg
 
   {% figure img_path "five-conditions.jpeg" "A nonsensical AI-generated image I somehow liked for this, courtesy of hotpot.ai" %}
 
-Back in 2017 Roy Rapoport wrote “[The Five Conditions for Improvement](https://medium.com/@royrapoport/the-five-conditions-for-improvement-20909f856dab)”, talking about the conditions necessary for an employee to fix a performance problem. I think he came up with a great framework for helping people improve, but what really keeps me coming back, over and over again, is how applicable it is in larger contexts. I think what Roy really described were the five conditions necessary for any entity to improve. And that includes organizational entities.
+Back in 2017 Roy Rapoport wrote “[The Five Conditions for Improvement](https://medium.com/@royrapoport/the-five-conditions-for-improvement-20909f856dab)”, talking about the conditions necessary for an employee to fix a performance problem. I think he came up with a great framework for helping people improve, but what really keeps me coming back, over and over again, is how applicable it is in larger contexts. I think what Roy really described were the five conditions necessary for *any* entity to improve. And that includes organizational entities.
 
 Let’s say, the “Bob” in Roy’s essay isn’t an individual, but is instead Bob’s Organic Bagels, a little start-up that has grown to become a solid little company bringing in a few million a year. They’ve reached the stage where they need to develop a little more maturity in their processes in order to scale, yet they can’t quite seem to get there. Why?
 
