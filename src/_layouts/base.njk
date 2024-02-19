@@ -22,7 +22,17 @@
       name="og:description"
       content="{{pageDescription}}"
     />
-
+    {% if thumb %}
+      <meta 
+        name="og:image"
+        content="{{img_path}}{{thumb}}"
+      />
+    {% else %}
+    <meta 
+        name="og:image"
+        content="/img/horseshoe.svg"
+      />
+    {% endif %}
     <link rel="preload" href="/fonts/baloo-2-v1-latin-500.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/baloo-2-v1-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 
