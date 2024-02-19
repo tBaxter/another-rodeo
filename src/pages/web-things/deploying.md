@@ -6,7 +6,7 @@ parent: 'Web Things'
 img_path: /img/web-things/
 thumb: facepalm.jpg
 ---
-  {% figure img_path "facepalm.jpeg" "Face, meet palm." %}
+  {% figure img_path "facepalm.jpg" "Face, meet palm." %}
 
 At one time, deployments were simply uploading files via FTP. When we weren't editing live files in production. We were but simple cavedwellers, and those were interesting times.
 

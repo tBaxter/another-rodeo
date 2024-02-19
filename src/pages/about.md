@@ -1,7 +1,7 @@
 ---
 title: "About this site"
-description: "We're doing it live! Really. Whatever this site eventually becomes, I'm gonna build it right out in the open so everybody can see my half-baked ideas and dead ends."
-date: Last Modified
+description: "We're doing it live! Whatever this site becomes, we're gonna build it out in the open so everybody can see all the half-baked ideas and dead ends."
+date: 2024-02-16
 parent: 'Web Things'
 img_path: /img/web-things/
 thumb: building-it.jpeg
