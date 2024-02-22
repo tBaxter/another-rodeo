@@ -6,6 +6,7 @@ date: 2023-02-30
 bike: Schwinn Speedster
 tags:
   - bikes
+  - post
 img_path: /img/bikes/schwinn-speedster/
 thumb: done.jpeg
 parent: 'Bikes'

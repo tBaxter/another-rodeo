@@ -4,6 +4,9 @@ description: 'A running list of the questions I have to remember to ask myself w
 date: 2024-02-13
 parent: 'Web Things'
 img_path: /img/web-things/
+tags:
+  - post
+  - web-things
 thumb: facepalm.jpg
 ---
   {% figure img_path "facepalm.jpg" "Face, meet palm." %}

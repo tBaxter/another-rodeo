@@ -5,6 +5,10 @@ date: 2024-02-19
 parent: 'Writing'
 img_path: /img/writing/
 thumb: quicksand.jpeg
+tags:
+    - writing
+    - post
+    - meetings
 ---
 Lots of people dislike meetings, with good reason: Meetings interrupt. They take time. They steal focus.†
 

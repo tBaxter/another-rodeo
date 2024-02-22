@@ -6,13 +6,14 @@
     {% if currentUrl === '/' %}aria-current="page"{% endif %}
     >{{ meta.siteName }}</a>
 
+    {% set navPages = collections.all | eleventyNavigation %}
     <ul role="list" class="tdbc-sitenav__navlist tdbc-list-unstyled">
-      {% for item in collections.parents %}
+      {% for item in navPages %}
       <li>
         <a
-          {% if currentUrl === item.url %}aria-current="page"{% endif %}
-          href="{{ item.slug }}">
-            {{ item.name }}
+          {% if currentUrl == item.url %}aria-current="page"{% endif %}
+          href="{{ item.url }}">
+            {{ item.title }}
         </a>
       </li>
       {%- endfor %}

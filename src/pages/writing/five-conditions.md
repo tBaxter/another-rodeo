@@ -5,6 +5,10 @@ date: 2024-02-19
 parent: 'Writing'
 img_path: /img/writing/
 thumb: five-conditions.jpeg
+tags:
+    - writing
+    - post
+    - management
 ---
 
   {% figure img_path "five-conditions.jpeg" "A nonsensical AI-generated image I somehow liked for this, courtesy of hotpot.ai" %}

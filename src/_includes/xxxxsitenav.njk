@@ -2,6 +2,9 @@
 
 <nav class="tdbc-sitenav">
   <div class="tdbc-sitenav__container">
+
+
+
     <a id="tdbc-siteid" href="/"
     {% if currentUrl === '/' %}aria-current="page"{% endif %}
     >{{ meta.siteName }}</a>
@@ -10,12 +13,13 @@
       <li>
         <a
           {% if currentUrl === link.url %}aria-current="page"{% endif %}
-          href="{{ link.url }}">
+          href="/{{ link.url }}">
             {{ link.data.title }}
         </a>
       </li>
       {%- endfor %}
 
       -- {{ collections.parents }}
+
     </ul>
 </nav>

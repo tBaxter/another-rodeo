@@ -4,6 +4,9 @@ description: 'Trying to put an egg (camper) back together again.'
 started: 2019-05-01
 date: 2020-01-07 # Last updated
 parent: 'The Camper'
+tags:
+  - camper
+  - post
 img_path: /img/camper/
 thumb: almost-done.jpeg
 ---

@@ -4,6 +4,9 @@ description: 'My attempt to bring modern tech to a very old camper.'
 started: 2020-02-01
 date: 2021-05-07 # Last updated
 parent: 'The Camper'
+tags:
+  - camper
+  - post
 img_path: /img/camper/
 thumb: thumb.jpeg
 ---

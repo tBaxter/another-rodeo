@@ -6,6 +6,7 @@ date: 2020-08-23
 tags:
   - bikes
   - raleigh
+  - post
 bike: Raliegh Sports
 img_path: /img/bikes/raleigh/
 thumb: raleigh.jpg

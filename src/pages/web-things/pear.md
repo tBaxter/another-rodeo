@@ -3,7 +3,11 @@ title: "Pear"
 description: 'Comparing text from two documents easily, with no sign-up or data sharing.'
 year: 2024
 date: 2024-01-10
-tags: web-things
+tags: 
+    - web-things
+    - post
+    - NLP
+    - text-comparison
 remote_link: https://pear.fly.dev
 parent: 'Web Things'
 img_path: /img/web-things/

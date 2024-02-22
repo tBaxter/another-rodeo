@@ -8,6 +8,7 @@ tags:
   - bikes
   - luxus
   - folding-bike
+  - post
 img_path: /img/bikes/luxus/
 thumb: fireball.jpeg
 parent: 'Bikes'

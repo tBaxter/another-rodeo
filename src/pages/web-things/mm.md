@@ -1,11 +1,15 @@
 ---
 title: "Maturity Model Generator"
 description: "Need a maturity model? Just enjoy a silly joke? Either way, we've got you covered."
-tags: web-things
 remote_link: "https://maturity-model.online"
 parent: "Web Things"
 date: 2023-08-08 # Last updated
 img_path: /img/web-things/
+tags:
+  - web-things
+  - post
+  - dumb-jokes
+  - maturity-model
 thumb: mm.png
 ---
 

@@ -4,6 +4,10 @@ description: 'Bringing an old favorite jQuery library into the modern era. And s
 date: 2024-02-08
 parent: 'Web Things'
 img_path: /img/web-things/
+tags:
+  - web-things
+  - post
+  - markitup
 thumb: typewriter.jpeg
 ---
   {% figure img_path "typewriter.jpeg" "An old typewriter is always a useful writing tool." %}

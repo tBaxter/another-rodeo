@@ -2,6 +2,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventySass = require("@11tyrocks/eleventy-plugin-sass-lightningcss");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 // Helper packages
 const slugify = require("slugify");
@@ -14,6 +15,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(eleventySass);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy("./src/img");
@@ -59,6 +61,10 @@ module.exports = function (eleventyConfig) {
       }
     });
     return parents;
+  });
+
+  eleventyConfig.addCollection("writing", function (collectionApi) {
+    return collectionApi.getFilteredByTags("writing");
   });
 
   /* Markdown Overrides */

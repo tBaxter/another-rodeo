@@ -6,6 +6,7 @@ date: 2021-07-23
 tags:
   - bikes
   - peugeot
+  - post
 bike: 1982 Peugeot PH19 mixte
 img_path: /img/bikes/peugeot/
 thumb: completed.jpg

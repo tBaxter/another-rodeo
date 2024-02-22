@@ -2,7 +2,6 @@
 layout: base.njk
 templateEngineOverride: md, njk
 ---
-
 {# A tiny extra style for the starter home page, intended to be removed as you customize to fit your own content! #}
 
 <style>
@@ -28,6 +27,21 @@ templateEngineOverride: md, njk
     font-size: 1.5rem;
   }
 </style>
+<nav class="tdbc-sitenav">
+  <div class="tdbc-sitenav__container">
+
+  {% set navPages = collections.all | eleventyNavigation %}
+    <ul role="list" class="tdbc-sitenav__navlist tdbc-list-unstyled">
+      {% for item in navPages %}
+      <li>
+        <a href="{{ item.url }}">
+            {{ item.title }}
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</nav>
 <header class="tdbc-hero">
   <div class="tdbc-container">
     <span class="logo">
@@ -64,7 +78,7 @@ templateEngineOverride: md, njk
 <main class="tdbc-container">
   <div class="tdbc-section">
     <ul class="tdbc-column-container">
-      {%- for page in collections.pages | reverse -%}
+      {%- for page in collections.post | reverse -%}
       <li class="tdbc-card">
         {% if page.data.thumb %}<img class="thumb" src="{{ page.data.img_path }}{{ page.data.thumb }}" alt="" />{% endif %}
         <div class="tdbc-card__content">

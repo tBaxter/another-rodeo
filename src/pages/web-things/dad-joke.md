@@ -3,6 +3,11 @@ title: "Not funny, Dad"
 description: 'The end result of a fascination with obscure government data sources and dad jokes.'
 date: 2024-01-27
 parent: 'Web Things'
+tags:
+  - dad-joke
+  - government
+  - web-things
+  - post
 img_path: /img/web-things/
 thumb: dadjoke.jpg
 ---
