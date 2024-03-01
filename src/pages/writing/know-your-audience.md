@@ -74,7 +74,7 @@ These folks don't want their docs in your code, because they don't want to read 
 - **Explanation of benefits:** medium
 
 
-### People  _understanding_ the codebase at a high level
+### 3. People  _understanding_ the codebase at a high level
 This is most likely to be stakeholders, prospective partners or customers, your product manager, a technical writer or even your marketing department. Whoever it is, they have a healthy interest in your codebase, but they’re more interested in *what* it does, rather than *how* it does it. Many times, they’re seeking enough understanding that they can then explain it to their own audience.
 
 This group may be looking at the docs pretty far removed from the actual codebase, and that's OK. In fact, for this group, Confluence or some other system closer to where they work can make a lot of sense.
@@ -85,7 +85,7 @@ This group may be looking at the docs pretty far removed from the actual codebas
 - **Explanation of benefits:** medium-high
 
 
-### People  _using the product_ built on the codebase
+### 4. People  _using the product_ built on the codebase
  These could be your most valuable audience, but too often they're ignored by engineering completely and simply handed off to the marketing department.
 
 This group has very little interest in the codebase. If they’re looking at it at all, it’s probably because they accidentally wandered into the Github repo from a link added by someone who didn’t understand the audience he was speaking to.
