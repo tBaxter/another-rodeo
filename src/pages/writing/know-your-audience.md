@@ -113,6 +113,8 @@ To help visualize all this, here’s a carefully crafted high-fidelity rendering
 
   {% figure img_path 'docs.png' "Here's a finely hand-crafted scatterplot with some squiggly dots intended to represent some of your audiences and their needs. " %}
 
+---
+<small>With my thanks to Stacy Holmstedt, Jeff Triplett, Jennifer Wadella, Josh Chessman and others who helped me bounce these ideas around. If you’re interested, Daniele Procida built a framework on some similar ideas awhile back. Check it out at https://diataxis.fr/</small>
 
 
 
