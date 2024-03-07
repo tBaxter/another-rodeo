@@ -66,4 +66,4 @@ There are also a lot of people – usually, but not always, women – who strugg
 
 ### After all of that, you still want to do it?
 
-For some folks, even knowing all of this, the IC track still feels right. If that’s the case, go forth and do great things. Just know you can change paths if you change your mind.
+For some folks, even knowing all of this, the IC track still feels right. If that’s the case, go forth and do great things. I just want you to know what you're getting into. And that you can change paths if you change your mind. Good luck!
