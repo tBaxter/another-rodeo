@@ -61,7 +61,7 @@ And they're building on their strengths rather than riding the "I'm not sure I'm
 
 But at the same time, some folks find that squishy people-problems are intricate and fascinating in a way that technical problems rarely are, and they find great satisfaction in that. 
 
-There are also a lot of people who find that becoming a manager unleashes their super-powers. These are the folks who may have been under-recognized and under-valued throughout their career because they excel at frequently under-values [glue work](https://noidea.dog/glue). Now, as a manager, those skills they've honed are suddenly incredibly valuable. In many respects, it's the job. They have, finally, met their moment.
+There are also a lot of people who find that becoming a manager unleashes their super-powers. These are the folks who may have been under-recognized and under-valued throughout their career because they excel at [glue work](https://noidea.dog/glue) and were seen as "not technical enough". Now, as a manager, those skills they've honed are suddenly incredibly valuable. Critical, even. They have, finally, met their moment.
 
 ### After all of that, you still don't want to manage?
 

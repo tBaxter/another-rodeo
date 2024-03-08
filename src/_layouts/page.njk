@@ -14,5 +14,7 @@ layout: base.njk
 <main class="tdbc-container">
   <article class="tdbc-mx-auto">
     {{ content | safe }}
+     <small>Published <time>{{ date | prettyDate }} in {{ parent }}</time>
+     </small>
   </article>
 </main>

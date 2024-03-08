@@ -33,9 +33,10 @@ module.exports = function (eleventyConfig) {
   // prettifier for dates
   eleventyConfig.addFilter("prettyDate", dateObj => {
     if (dateObj) {
-      return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+      return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("d LLLL yyyy");
     }
   });
+ 
   // Creates a list of parents suitable for nav from 
   // pages with "parent" in the front matter.
   // Also creates a slug for easy linking
