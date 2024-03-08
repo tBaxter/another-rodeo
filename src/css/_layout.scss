@@ -11,7 +11,7 @@ body {
 
 main {
   padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding-bottom: 2rem;
   margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@ footer {
 }
 
 article {
-  max-width: 85ch;
+  max-width: 90ch;
 
   > img {
     margin-right: auto;
@@ -109,5 +109,10 @@ figure {
   background-color: #eee;
   border-radius: $tdbc-border-radius;
   overflow: hidden;
+  text-align: center;
 }
 figcaption { padding: 0.5em }
+
+figure img {
+  margin: 0 auto;
+}

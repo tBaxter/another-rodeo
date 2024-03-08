@@ -20,13 +20,13 @@ I’ve heard it a thousand times from a thousand engineers: “I don’t want to
 
 Your career progression will slow to a crawl. You'll watch your peers move up in the company before you. You'll wonder why. There are a few good reasons, and they're all hard to hear.
 
-### 1. Your organization does not need very many senior ICs
+### 1. Your organization does not need very many senior (Staff+ level) ICs
 
 Most teams are fairly autonomous. They have reasonably good to very good engineers on them who understand the systems they use. They have managers who are talking to one another, filling in the blanks. There's only so much need for a Super Engineer who knows how everything across teams works. Most of that work is already getting done.
 
 When you have one, it can be hard to find Super Engineer-level work for them to do, and it's really easy for management to start wondering what Super Engineer is doing to justify their very expensive salary.
 
-So there's not a lot of need for really senior ICs, not a lot of demand for them, and not a lot of seats for them. Take a look around: most likely your org has somewhere around five engineering managers for every IC-track Principal Engineer. 
+So there's not a lot of need for really senior pure ICs, not a lot of demand for them, and not a lot of seats for them. Take a look around: most likely your org has somewhere around five engineering managers for every IC-track Principal Engineer. That's not to say you can't do IC work. It's to say that if you _only_ want to do IC work, the demand can be thin. There's almost always demand for another team lead.
 
 If you want one of those Principal seats, you're going to have to show a lot of value, and you're still likely to be stuck because there just isn't a seat open. Meanwhile, the folks on the management track have a much easier time finding openings. People are messy and everyone mostly agrees they need managing.
 
@@ -61,9 +61,10 @@ And they're building on their strengths rather than riding the "I'm not sure I'm
 
 But at the same time, some folks find that squishy people-problems are intricate and fascinating in a way that technical problems rarely are, and they find great satisfaction in that. 
 
-There are also a lot of people – usually, but not always, women – who struggle to reach a senior engineer level because they excel at [glue work](https://noidea.dog/glue), and that’s been under-recognized and under-valued throughout their career. If they choose a management track, they often find their career really takes off because that glue work is absolutely invaluable as a manager. In many respects, it's the job.They've already built the skills they need.
+There are also a lot of people who find that becoming a manager unleashes their super-powers. These are the folks who may have been under-recognized and under-valued throughout their career because they excel at frequently under-values [glue work](https://noidea.dog/glue). Now, as a manager, those skills they've honed are suddenly incredibly valuable. In many respects, it's the job. They have, finally, met their moment.
 
+### After all of that, you still don't want to manage?
 
-### After all of that, you still want to do it?
+Good. You do what feels right for you, just do it with open eyes. For some folks, even knowing all of this, the IC track still feels right. If that’s you, awesome. Go forth and do great things. I just want you to know what you're getting into. And that you can change paths if you change your mind. Good luck!
 
-For some folks, even knowing all of this, the IC track still feels right. If that’s the case, go forth and do great things. I just want you to know what you're getting into. And that you can change paths if you change your mind. Good luck!
+_Edited later 3/7 to clarify a few points people had raised. Thank you, people!_
