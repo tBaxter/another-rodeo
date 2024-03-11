@@ -1,16 +1,15 @@
 ---
 title: "AI is boring and stupid and maybe that's OK"
 description: "Sometimes boring and stupid is still really useful."
-date: 2024-03-07
-eleventyExcludeFromCollections: true
+date: 2024-03-11
 parent: 'Writing'
 img_path: /img/writing/ai/
 thumb: assembly.jpeg
-#tags:
-#    - writing
-#    - post
-#    - ai
-#    - engineering
+tags:
+    - writing
+    - post
+    - ai
+    - engineering
 ---
 
   {% figure img_path thumb "Attempting to spot defects on a fast-moving assembly line." %}
