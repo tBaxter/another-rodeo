@@ -30,7 +30,7 @@ And I learned that yes, it has been done (and done well), but *how* to do it is 
 ### Creating new entries for the linkroll
 Whenever you click the bookmarklet it will create a new page in Github. At that point, you still need to save and commit the changes to create the new entry. I don't know if this part could be automated, and I didn't look into it because I thought it was a useful final step to ensure that the entry looked correct and an additional point to add any last-minute edits.
 
-Anything in the page you create here should be available to your site downstream, so you very well may want to add additional information.
+Anything in the page you create here should be available to your site downstream, so you very well may want to add additional information. By default it attempts to grab and excerpt from the page, but you can also add your own thoughts.
 
 ### Showing the entries
 This is where things went sideways for me and the simple things got hard. I got pretty confused about why my new content didn't show up, and why I didn't have a "links" collection. 
@@ -58,5 +58,6 @@ I also created a simple sidebar for my index page, which was considerably less i
 So, that's how I did it.
 
 ### My to-do list from here
-1. Think about how I might introduce images. Nicolas appears to use thumb.io to get screenshots. I'm wondering about leveraging `og:image` tags where they're found
+1. Make saving a new entry trigger a Netlify build. Right now it doesn't. I imagine there's a Github action or something to do it, I just haven't figured it out yet.
+2. Think about how I might introduce images. Nicolas appears to use thumb.io to get screenshots. I'm wondering about leveraging `og:image` tags where they're found
 2. Nicolas really does have a lot of interesting ideas in his repo, and I think I'm likely to incorporate more of them.
