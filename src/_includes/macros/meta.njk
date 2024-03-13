@@ -1,0 +1,37 @@
+{% macro meta(item, permalink = false) %}
+  <ul class="meta">
+    {% if item.date %}
+      <li class="date meta__item meta__date">
+        Date: 
+        <time class="dt-published" datetime="{{ item.date }}">
+          {{ item.date }}
+        </time>
+      </li>
+    {% endif %}
+    {% if item.data.location %}
+      <li class="date meta__item meta__location">
+        Location: 
+        {% if item.data.location.url %}
+          <a href="{{ item.data.location.url }}">{{ item.data.location.name }}</a>
+        {% else %}
+          {{ item.data.location.name }}
+        {% endif %}
+      </li>
+    {% endif %}
+    {% set tagsSize = item.data.tags %}
+    {% if tagsSize > 0 %}
+      <li class="tags meta__item meta__tags">
+        Tags:
+        {%- set comma = joiner(", ") -%}
+        {%- for tag in item.data.tags -%}{{- comma() }} <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>{%- endfor -%}
+      </li>
+    {% endif %}
+
+    {% if permalink %}
+      <li class="permalink meta__item">
+        Link:
+        <a href="{{ item.url }}" class="u-url">permalink</a>
+      </li>
+    {% endif %}
+  </ul>
+{% endmacro %}

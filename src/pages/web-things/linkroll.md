@@ -1,6 +1,6 @@
 ---
 title: "11ty Linkrolls"
-description: "Putting together a good old-fashioned linkroll for the 11ty static site generator."
+description: "How to build an old-fashioned linkroll for the 11ty static site generator."
 parent: "Web Things"
 date: 2024-03-13 # Last updated
 img_path: /img/web-things/
@@ -17,7 +17,20 @@ Surely, I thought, this must be a paved cowpath in the Eleventy world, so I aske
 
 <iframe src="https://mastodon.social/@tbaxter/112083281191909486/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script>
 
-And I learned that yes, it has been done (and done well), but *how* to do it is less clear. in particular [Nicolas Hoizey](https://nicolas-hoizey.com/) had a very nice version, and had [written up part of it](https://nicolas-hoizey.com/articles/2023/02/08/a-bookmarklet-to-create-a-new-link-content-markdown-on-github/). In the interest of completeness (and so I can remember how I did it), here are all the steps. I should also note that Nicolas' implementation is way, way more sophisticated and complex than mine. This is the cavedweller version. We're [digging for fire](https://www.youtube.com/watch?v=xekfBhiqfig) here.
+And I learned that yes, it has been done (and done well), but *how* to do it is less clear. in particular [Nicolas Hoizey](https://nicolas-hoizey.com/) had a very nice version, and had [written up part of it](https://nicolas-hoizey.com/articles/2023/02/08/a-bookmarklet-to-create-a-new-link-content-markdown-on-github/). In the interest of completeness (and so I can remember how I did it), here are all the steps. I should also note that Nicolas' implementation is way, way more sophisticated and complex than mine, and that his 11ty codebase is chock full of interesting things I'll probably emulate later. For now, for this linkroll, this is the cavedweller version. We're [digging for fire](https://www.youtube.com/watch?v=xekfBhiqfig) here.
 
 ### Prepare the bookmarklet
-1. 
+1. Install the [bookmarklet NPM package](https://www.npmjs.com/package/bookmarklet) with `npm install bookmarklet` or, if you're like me and you have some sort of NPM path issue you don't want to track down, shake your head and make it a global install: `npm install -g bookmarklet`
+2. Following the link from Nicolas' site, I grabbed his [bookmarklet code](https://github.com/nhoizey/nicolas-hoizey.com/blob/main/assets/js/bookmarklets/new-link.js) and put it in the same location on my site: `/assets/js/bookmarklets/`
+3. In the bookmarklet script, look for `newFileUrl` and change the Github address to your own. I also modified it to automatically prompt for tags after getting _really_ confused about why my pages didn't show up in any collections. You can see [my version in Github](https://github.com/tBaxter/another-rodeo/blob/main/assets/js/bookmarklets/new-link.js).
+4. Build the bookmarklet with `bookmarklet --demo assets/js/bookmarklets/new-link.js src/tools/bookmarklets/new-link.html`. Note that the last half of that command is the destination. In my case, I had to create a directory or two before I could get the output file there.
+5. Fire up your local site with `npm start` and navigate to `http://localhost:8080/tools/bookmarklets/new-link/`. You should see your bookmarklet and be able to drag it to your bookmarks bar.
+6. This is a good time to test it. Navigate to any page and click the bookmarklet. You should see prompts for the page title and a slugified (URL-safe) version of the title. If you're using my version, you should also get a prompt for tags. Click "OK" through the prmpts and you _should_ get redirected to github, where you should see a draft of a new page. 
+
+### Creating new entries for the linkroll
+Whenever you click the bookmarklet it will create a new page in Github. At that point, you still need to save and commit the changes to create the new entry. I don't know if this part could be automated, and I didn't look into it because I thought it was a useful final step to ensure that the entry looked correct and an additional point to add any last-minute edits.
+
+### Showing the entries
+This is where things got a little more difficult for me. I couldn't find as much documentation on the output side, and Nicolas has a lot of things going on in his source code. This is a significantly dumbed down version.
+
+
