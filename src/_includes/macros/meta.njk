@@ -2,9 +2,8 @@
   <ul class="meta">
     {% if item.date %}
       <li class="date meta__item meta__date">
-        Date: 
         <time class="dt-published" datetime="{{ item.date }}">
-          {{ item.date }}
+          {{ item.date | prettyDate }}
         </time>
       </li>
     {% endif %}
@@ -18,11 +17,10 @@
         {% endif %}
       </li>
     {% endif %}
-    {% set tagsSize = item.data.tags %}
-    {% if tagsSize > 0 %}
+    {% if item.data.tags %}
+      {%- set comma = joiner(", ") -%}
       <li class="tags meta__item meta__tags">
-        Tags:
-        {%- set comma = joiner(", ") -%}
+        Tagged:
         {%- for tag in item.data.tags -%}{{- comma() }} <a href="/tags/{{ tag | slugify }}/" rel="tag" class="p-category">{{ tag }}</a>{%- endfor -%}
       </li>
     {% endif %}

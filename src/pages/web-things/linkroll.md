@@ -7,9 +7,9 @@ img_path: /img/web-things/
 tags:
   - web-things
   - post
-thumb: mm.png
-eleventyExcludeFromCollections: true
+thumb: chain.jpg
 ---
+  {% figure img_path thumb "Gotta get yourself connected..." %}
 
 One of the things I've always loved about blogs were the linkrolls... that candy trail to more and more interesting things scattered around the web. I love to see folks sharing the interesting things they find. Social media is built on that sort of sharing, but they've also commoditized it and gamified it beyond recognition, and there's no persistence to it, either. I wanted an old-fashioned linkroll for myself.
 
@@ -30,7 +30,33 @@ And I learned that yes, it has been done (and done well), but *how* to do it is 
 ### Creating new entries for the linkroll
 Whenever you click the bookmarklet it will create a new page in Github. At that point, you still need to save and commit the changes to create the new entry. I don't know if this part could be automated, and I didn't look into it because I thought it was a useful final step to ensure that the entry looked correct and an additional point to add any last-minute edits.
 
+Anything in the page you create here should be available to your site downstream, so you very well may want to add additional information.
+
 ### Showing the entries
-This is where things got a little more difficult for me. I couldn't find as much documentation on the output side, and Nicolas has a lot of things going on in his source code. This is a significantly dumbed down version.
+This is where things went sideways for me and the simple things got hard. I got pretty confused about why my new content didn't show up, and why I didn't have a "links" collection. 
 
+It turned out that the original bookmarklet didn't add any tags -- I'm guessing Nicolas adds them himself -- and without them, the pages didn't appear in any collection and the collection wasn't created. Once I figured that out, things got simpler.
 
+To create a links page, I pretty much copied what Nicolas had done for his archives, although in a pretty dumbed-down version.
+1. I grabbed Nicolas' link index page and [made my own version](https://github.com/tBaxter/another-rodeo/blob/main/src/links/index.njk). 
+2. That index page relies on the [linkcard macro](https://github.com/tBaxter/another-rodeo/blob/main/src/_includes/macros/linkCard.njk), which in turn relies on the [card](https://github.com/tBaxter/another-rodeo/blob/main/src/_includes/macros/card.njk) and [meta](https://github.com/tBaxter/another-rodeo/blob/main/src/_includes/macros/meta.njk) macros, all of which I grabbed from Nicolas and then stripped down. I admit macros are a part of 11ty I'm not familiar with, so it's very possible this part could be simpler and/or more elegant. 
+3. Fire up the local version again, if it's not already running. You should see a page with the link you created earlier (although you may need to `git pull` to bring it down to your local build). If not, start debugging.
+
+I also created a simple sidebar for my index page, which was considerably less involved:
+
+{% raw %}
+```
+    <ul class="linkroll">
+        {% for link in collections.links %}<li>
+            <a href="{{ link.url }}">{{ link.data.title }}</a>
+            {{ link.content | safe }}
+        </li>{% endfor %}
+    </ul> 
+```
+{% endraw %}
+
+So, that's how I did it.
+
+### My to-do list from here
+1. Think about how I might introduce images. Nicolas appears to use thumb.io to get screenshots. I'm wondering about leveraging `og:image` tags where they're found
+2. Nicolas really does have a lot of interesting ideas in his repo, and I think I'm likely to incorporate more of them.
