@@ -1,0 +1,21 @@
+{% from "macros/meta.njk" import meta %}
+{% from "macros/card.njk" import card %}
+
+{% macro talkCard(talk) %}
+  {% set content %}
+  {{ talk.data.page.excerpt }}
+  {% endset %}
+
+  {% set meta %}
+  {{ meta(talk) }}
+  {% endset %}
+
+  {{ card(
+    type = 'talk',
+    lang = talk.data.lang,
+    title = talk.data.title,
+    url = talk.url,
+    illustration = talk.data.illustration,
+    content = content,
+    meta = meta) }}
+{% endmacro %}

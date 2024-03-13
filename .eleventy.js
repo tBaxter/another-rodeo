@@ -6,10 +6,13 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 // Helper packages
 const slugify = require("slugify");
+const glob = require('fast-glob');
+const path = require('path');
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
 const { DateTime } = require("luxon");
+
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -21,8 +24,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/favicon.png");
 
+  // TO-DO: Move these into shortcodes folder
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-
   // adds ability to easily create figure/figcaption
   eleventyConfig.addShortcode("figure", function (img_path, url, desc, classname="") {
     return `<figure class="image ${classname}">
@@ -30,6 +33,18 @@ module.exports = function (eleventyConfig) {
       <figcaption>${ desc }</figcaption>
     </figure>`
   });
+
+  // ------------------------------------------------------------------------
+  // Shortcodes
+  // ------------------------------------------------------------------------
+
+  glob.sync(path.join(__dirname, '_11ty/shortcodes/*.js')).forEach((file) => {
+    let shortcodes = require('./' + file);
+    Object.keys(shortcodes).forEach((name) => {
+      eleventyConfig.addNunjucksShortcode(name, shortcodes[name]);
+    });
+  });
+
   // prettifier for dates
   eleventyConfig.addFilter("prettyDate", dateObj => {
     if (dateObj) {
@@ -37,6 +52,9 @@ module.exports = function (eleventyConfig) {
     }
   });
  
+  //--------------------------------------------------
+  // Collections
+  //--------------------------------------------------
   // Creates a list of parents suitable for nav from 
   // pages with "parent" in the front matter.
   // Also creates a slug for easy linking
@@ -66,6 +84,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("writing", function (collectionApi) {
     return collectionApi.getFilteredByTags("writing");
+  });
+  eleventyConfig.addCollection("links", function (collectionApi) {
+    return collectionApi.getFilteredByTags("link");
   });
 
   /* Markdown Overrides */

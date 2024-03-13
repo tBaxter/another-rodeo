@@ -5,7 +5,7 @@ lang: en
 link: https://www.smithsonianmag.com/history/world-war-ii-rumor-clinics-helped-america-battle-wild-gossip-180983883/
 authors:
   - ""
-tags: []
+tags: [link]
 ---
 
 

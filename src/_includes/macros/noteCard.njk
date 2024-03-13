@@ -1,0 +1,21 @@
+{% from "macros/meta.njk" import meta %}
+{% from "macros/card.njk" import card %}
+
+{% macro noteCard(note) %}
+  {% set content %}
+  {{ note.templateContent | noteToHtml | absoluteImagePath(note.url) | safe }}
+  {% endset %}
+
+  {% set meta %}
+  {{ meta(note, permalink=false) }}
+  {% endset %}
+
+  {{ card(
+    type = 'note',
+    lang = note.data.lang,
+    title = note.data.body.title,
+    url = note.url,
+    content = content,
+    meta = meta)
+  }}
+{% endmacro %}

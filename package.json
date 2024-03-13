@@ -31,6 +31,8 @@
     "not dead"
   ],
   "dependencies": {
-    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0"
+    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0",
+    "bookmarklet": "^3.0.0",
+    "glob": "^10.3.10"
   }
 }

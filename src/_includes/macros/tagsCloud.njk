@@ -1,0 +1,16 @@
+{% macro tagsCloud(tags) %}
+
+<ol id="tagscloud">
+{% for tag in tags %}
+  {% set tagUrl %}/tags/{{ tag.tag | slugify }}/{% endset %}
+  <li>
+    <a href="{{ tagUrl }}"
+      aria-label="{{ tag.number }} content{% if tag.number > 1 %}s{% endif %} with tag {{ tag.tag }}"
+      data-number="{{ tag.number }}"
+      style="--log: {{ tag.log }}"
+      rel="tag">{{ tag.tag }}</a>
+  </li>
+{% endfor %}
+</ol>
+
+{% endmacro %}

@@ -1,0 +1,39 @@
+---
+title: Links
+eleventyExcludeFromCollections: true
+layout: base.njk
+eleventyImport:
+  collections: ["links"]
+---
+{% include 'topnav.njk' %}
+
+{% from "macros/linkCard.njk" import linkCard %}
+
+
+{% block content %}
+  <h1>Links</h1>
+  links{{ collections.links }}
+  <div class="archives">
+        <ol class="cards-list">
+            {% for item in collections.links %}
+            item: 
+            {{ item }}
+            
+                {% if loop.index > 5 %}
+                  {{ linkCard(item) }}
+                {% else %}
+                  {{ linkCard(item, false) }}
+                {% endif %}
+            {% endfor %}
+        </ol>
+  </div>
+
+  {#
+  Load Algolia only in modern browsers
+  https://web.dev/publish-modern-javascript/#rollup
+  #}
+  {% if build.env == 'production' %}
+    <script defer type="module" src="/js/{{ hashes_archives['assets/js/archives.js']}}"></script>
+  {% endif %}
+
+{% endblock %}

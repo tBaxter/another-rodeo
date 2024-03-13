@@ -1,0 +1,51 @@
+{% from "macros/meta.njk" import meta %}
+{% from "macros/card.njk" import card %}
+
+{% macro linkCard(link, lazy = true) %}
+  {% set thumbUrl = 'https://image.thum.io/get/width/1200/crop/800/noanimate/' %}
+
+  {% set illustration = {
+    src: thumbUrl + link.data.link,
+    alt: "screenshot of " + link.data.title,
+    width: 1200,
+    height: 800
+  } %}
+
+  {% set surtitle = false %}
+  {% if link.data.authors %}
+    {% set surtitle %}
+    {%- for author in link.data.authors -%}
+      {%- if not loop.first -%}
+        {%- if not loop.last -%}, {% else %} and {% endif -%}
+      {%- endif -%}
+      {% set authorData = link.data.people[author] %}
+      {%- if authorData.mastodon %}
+        {% set avatarUrl %}https://mastodon-avatar.netlify.app/?username={{authorData.mastodon}}{% endset %}
+        <img class="u-photo avatar" src="https://res.cloudinary.com/nho/image/fetch/q_auto,f_auto,w_48/{{avatarUrl | url_encode }}" alt="{{ author }} avatar" width="48" height="48" data-responsiver="false" />
+      {%- endif %}
+      {{ author }}
+      {%- if authorData.mastodon %}
+        <a class="author__mastodon" href="{{ authorData.mastodon | mastodonUrl }}" aria-label="{{ authorData.mastodon }} on Mastodon"><svg><use xlink:href="#symbol-mastodon" /></svg></a>
+      {%- endif %}
+    {%- endfor %}
+    {% endset %}
+  {% endif %}
+
+  {% set content = link.data.page.excerpt %}
+
+  {% set meta %}
+  {{ meta(link) }}
+  {% endset %}
+
+  {{ card(
+    type = 'link',
+    lang = link.data.lang,
+    surtitle = surtitle,
+    title = link.data.title,
+    url = link.url,
+    illustration = illustration,
+    content = content,
+    meta = meta,
+    lazy = lazy)
+  }}
+{% endmacro %}
