@@ -58,6 +58,7 @@ I also created a simple sidebar for my index page, which was considerably less i
 So, that's how I did it.
 
 ### My to-do list from here
-1. Make saving a new entry trigger a Netlify build. Right now it doesn't. I imagine there's a Github action or something to do it, I just haven't figured it out yet.
-2. Think about how I might introduce images. Nicolas appears to use thumb.io to get screenshots. I'm wondering about leveraging `og:image` tags where they're found
-2. Nicolas really does have a lot of interesting ideas in his repo, and I think I'm likely to incorporate more of them.
+1. Make saving a new entry trigger a Netlify build. Right now it doesn't appear to. I imagine there's a Github action or something to do it, I just haven't figured it out yet.
+2. Possibly related to the above, or causing the entry to not show up on deployment, but I introduced a defect when adding multiple links. They're becoming a single string, so they don't get added to collection properly. I'll have to sort that out.
+3. Think about how I might introduce images. Nicolas appears to use thumb.io to get screenshots. I'm wondering about leveraging `og:image` tags where they're found
+4. Nicolas really does have a lot of interesting ideas in his repo, and I think I'm likely to incorporate more of them.

@@ -5,7 +5,7 @@ lang: en
 link: https://www.runtime.news/agile-software-promises-efficiency-it-requires-a-cultural-shift-to-get-right/
 authors:
   - ""
-tags: ["link, agile"]
+tags: ["link", "agile"]
 ---
 
 
