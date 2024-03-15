@@ -96,7 +96,7 @@ templateEngineOverride: md, njk
       <h2>Currently enjoying</h2>
       <ul class="linkroll">
       {% for link in collections.links | reverse %}<li>
-           <a href="{{ link.url }}">{{ link.data.title }}</a>
+           <a href="{{ link.data.link }}">{{ link.data.title }}</a>
            {{ link.content | safe }}
         </li>{% endfor %}
     </ul>
