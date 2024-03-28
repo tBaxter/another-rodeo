@@ -92,6 +92,7 @@
     object-fit: cover;
     height: 7em;
     border-radius: $tdbc-border-radius $tdbc-border-radius 0 0;
+    filter: saturate(30%);
   }
 
   &--outlined {

@@ -8,7 +8,7 @@ tags:
   - bikes
   - post
 img_path: /img/bikes/handcycle/
-thumb: thumb.jpeg
+thumb: starting.jpg
 parent: 'Bikes'
 ---
 
