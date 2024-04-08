@@ -10,8 +10,6 @@ tags:
   - markitup
 thumb: typewriter.jpeg
 ---
-  {% figure img_path "typewriter.jpeg" "An old typewriter is always a useful writing tool." %}
-
 
 I've used a library called [MarkitUp](https://markitup.jaysalvat.com/home/) on different projects of mine for more than 15 years. Compared to most Rich Text Editors, I found it to be much lighter weight and gave users Just Enough help to format using markdown. On the server side, this also offered nice flexibilty: I could store markdown, HTML, or both. In short, for a lot of nerdy reasons I really liked MarkitUP.
 

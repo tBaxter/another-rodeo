@@ -9,7 +9,6 @@ tags:
   - post
 thumb: chain.jpg
 ---
-  {% figure img_path thumb "Gotta get yourself connected..." %}
 
 One of the things I've always loved about blogs were the linkrolls... that candy trail to more and more interesting things scattered around the web. I love to see folks sharing the interesting things they find. Social media is built on that sort of sharing, but they've also commoditized it and gamified it beyond recognition, and there's no persistence to it, either. I wanted an old-fashioned linkroll for myself.
 

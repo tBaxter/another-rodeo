@@ -5,14 +5,13 @@ date: 2024-03-07
 parent: 'Writing'
 img_path: /img/writing/
 thumb: office-pool.jpeg
+thumb_alt:  "A vintage office pool with people hard at work at their individual desks. Photo from the US National Archives."
 tags:
     - writing
     - post
     - management
     - engineering
 ---
-
-  {% figure img_path "office-pool.jpeg" "A vintage office pool with people hard at work at their individual desks. Photo from the US National Archives." %}
 
 I’ve heard it a thousand times from a thousand engineers: “I don’t want to be a manager.” A lot of senior engineers think this, but I’m not sure many of them understand what it will mean to them and their career. Here it is:
 

@@ -12,8 +12,6 @@ tags:
     - engineering
 ---
 
-  {% figure img_path thumb "Attempting to spot defects on a fast-moving assembly line." %}
-
 We’re now just a bit over two years into the AI revolution. The chorus of hype and promises — both empty and real — remains deafening. The capabilities of AI increase every day. Yet right now, the most impressive thing about AI may be how quickly we’ve trained our primitive monkey brains to recognize how incredibly boring it is.
 
 In months, really, we’ve retrained our brains. We've gone from being utterly dazzled by the magic of AI to seeing the machine behind the curtain, moving the levers. Not long ago we watched incredulously as AI conjured credible art out of thin air, held lengthy conversations with us on the fly, and generated new lyrics for Taylor Swift songs anytime we liked. Then, after a moment of magic, we started to shrug.

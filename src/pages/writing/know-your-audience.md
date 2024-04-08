@@ -12,8 +12,6 @@ tags:
     - documentation
 ---
 
-  {% figure img_path thumb "" %}
-
 Many years ago, armed with little more than a crude word processor and a take-on-the-world attitude, I embarked on a quest to become A Great Journalist. Day after day I fell bleary-eyed into early-morning classes, seeking knowledge. My words were going to make a difference.
 
 In the end, I only became a Middling Journalist, but I did manage to pick up a few insights and aphorisms that have proven useful since. Few are as useful and true (if clichéd) as this: 

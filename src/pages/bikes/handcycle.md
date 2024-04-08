@@ -12,13 +12,13 @@ thumb: starting.jpg
 parent: 'Bikes'
 ---
 
- {% figure img_path 'starting.jpg' "The starting point for this project. Dirty and neglected, but sound." %}
-
-This is one of those projects I wish I'd kept better notes and photos on, because it was pretty fascinating to me....
+This is one of those projects where I wish I'd kept better notes and photos, because it was pretty fascinating to me....
 
 In spring 2001 a friend learned I'd been renovating old bikes and asked if I'd look at his daughter's bike. His daughter has some issues with mobility, so the bike in question was a handcycle. I'd never heard of a handcycle, let alone put a wrench to one, but was I going to let that stop me? No, I was not.
 
 When it came to me, it had been sitting in the back corner of a warehouse for some time, and that time had not been good it it. Aside from a thick coating of dust, it appeared someone may have backed a forklift into the front wheel. In addition, chemicals in the air at the factory had attacked the metal parts.
+
+ {% figure img_path 'starting.jpg' "The starting point for this project. Dirty and neglected, but sound." %}
 
 On the other hand, the paint was still good and it was sound and not overly rusty. It would clean up.
 

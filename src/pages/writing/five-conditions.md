@@ -11,8 +11,6 @@ tags:
     - management
 ---
 
-  {% figure img_path "five-conditions.jpeg" "A nonsensical AI-generated image I somehow liked for this, courtesy of hotpot.ai" %}
-
 Back in 2017 Roy Rapoport wrote “[The Five Conditions for Improvement](https://medium.com/@royrapoport/the-five-conditions-for-improvement-20909f856dab)”, talking about the conditions necessary for an employee to fix a performance problem. I think he came up with a great framework for helping people improve, but what really keeps me coming back, over and over again, is how applicable it is in larger contexts. I think what Roy really described were the five conditions necessary for *any* entity to improve. And that includes organizational entities.
 
 Let’s say, the “Bob” in Roy’s essay isn’t an individual, but is instead Bob’s Organic Bagels, a scrappy start-up that has grown to become a solid little company bringing in a few million a year. They’ve reached the stage where they need to develop a little more maturity in their processes in order to scale, yet they can’t quite seem to get there. Why?
@@ -31,3 +29,5 @@ If you’re a leader at BOB, understanding where you’re at on that scale – a
 And if you’re a leader thinking of joining BOB, you need to understand where they’re at, too. Worse, you need to try to separate where they _think_ they are at from where they are really at, because the problem may not be seen the same way across the management team. See Levels 1 and 2, for example. Plenty of great leaders have joined companies both large and small and then found out the difference between an organization that truly wants to change versus an organization that wants to feel like it is changing. 
 
 But here’s the thing: recognizing the levels is a great tool for overcoming them. And just as Bob successfully made it through in Roy’s original essay, BOB can, too. 
+
+  {% figure img_path "five-conditions.jpeg" "A nonsensical AI-generated image I somehow liked for this, courtesy of hotpot.ai" %}

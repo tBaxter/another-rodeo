@@ -11,7 +11,6 @@ tags:
 img_path: /img/web-things/
 thumb: dadjoke.jpg
 ---
-  {% figure img_path "dadjoke.jpg" "A sample dad joke." %}
 
 About every other year or so I'm reminded that the U.S. Federal government has a site called Fatherhood.gov, and tucked away inside that tiny little backwater in the vast sea of government web sites there is a collection of dad jokes. Yes, the United States government keeps and hosts a collection of dad jokes, and because they are the work the US government, they are owned by and open to the public.
 

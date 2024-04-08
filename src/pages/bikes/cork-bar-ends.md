@@ -10,7 +10,6 @@ img_path: /img/bikes/cork-bar-ends/
 thumb: installed.jpeg
 
 ---
-  {% figure img_path thumb "A not-great pic of an installed cork bar-end." %}
 
 Making your own custom handlebar plugs from wine corks is a nice and easy way of recycling an old cork or two while showing some individuality. 
 
