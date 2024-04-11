@@ -51,5 +51,17 @@ I learned these kits are pretty straighforward and well within the ability of an
 
 Fun bike. I should ride it more.
 
+### April 11 update
+
+I've decided I need to clear the herd a bit, so this one is hitting the market. To that end I stripped off the e-bike conversion kit and took it back to more of a BMX Cruiser/Klunker vibe. And when I rode it, it was suddenly my favorite cruiser ever. Such a fun, fun bike. I'm still going to sell it because I really do need to clear a few out, but I can tell I'm going to regret letting this one go, and sooner or later I'll end up building another one much like it.
+
+  {% figure img_path "april-1.jpeg" "It just looks cool, in all of it's late 70s/early 80s cruiser glory." %}
+
+  {% figure img_path "april-bars.jpeg" "Modern klunker-style bars and a pretty good reproduction of an 80s BMX stem." %}
+
+  {% figure img_path "april-fork.jpeg" "80's style tubular fork and reproduction Dia-Compe MX brakes" %}
+
+  {% figure img_path "april-cranks.jpeg" "Original cranks and Schwinn chainring, with new gold chain." %}
+
 {% include 'affiliate.md' %}
 
