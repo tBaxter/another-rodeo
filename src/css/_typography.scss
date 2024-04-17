@@ -17,6 +17,11 @@ h1,
   font-size: clamp(3rem, 5vw + 1rem, #{$tdbc-h1-font-size});
 }
 
+.tdbc-hero h1,
+.tdbc-hero h2 {
+  text-align: center;
+}
+
 h2,
 .tdbc-h2 {
   font-size: $tdbc-h2-font-size;

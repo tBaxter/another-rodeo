@@ -68,46 +68,53 @@ ul.tdbc-column-container {
 }
 
 // Adding an extra column for the home page
-#index-multicol {
-  display: flex;
+  #index-multicol {
+    --multi-col-width: 50ch;
 
-  aside {
-    max-width: 20%;
-    margin: 1em 0 0 2em;
-    border-radius: $tdbc-border-radius;
-    background-color: #fff;
-    box-shadow: 0 3px 5px rgb(0 0 0 / 18%);
-
-    h2 {
-      font-size: 1em;
-      padding: 0.5em;
-      text-align: center;
-      background: tdbc-color("secondary");
-      color: white;
-      border-radius: $tdbc-border-radius;
-      margin-bottom: 0.5em
+    @media (width > 800px) {
+      display: flex;
     }
-    ul.linkroll {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-
-      a {text-decoration: none;}
-      a:hover {text-decoration: underline;}
-
-      li {
-        padding: 0.5em 1em;
-        font-size: 1em;
-
-        p, blockquote, blockquote p {font-size: 0.875rem; margin:0.5em 0}
+    aside {
+      @media (width > 800px) {
+        max-width: 20%;
+        margin: 1em 0 0 2em;
 
       }
-      li + li {
-        border-top: 1px solid #eee;
+      border-radius: $tdbc-border-radius;
+      background-color: #fff;
+      box-shadow: 0 3px 5px rgb(0 0 0 / 18%);
+
+      h2 {
+        font-size: 1em;
+        padding: 0.5em;
+        text-align: center;
+        background: tdbc-color("secondary");
+        color: white;
+        border-radius: $tdbc-border-radius;
+        margin-bottom: 0.5em
+      }
+      ul.linkroll {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        a {text-decoration: none;}
+        a:hover {text-decoration: underline;}
+
+        li {
+          padding: 0.5em 1em;
+          font-size: 1em;
+
+          p, blockquote, blockquote p {font-size: 0.875rem; margin:0.5em 0}
+
+        }
+        li + li {
+          border-top: 1px solid #eee;
+        }
       }
     }
   }
-}
+
 
 .tdbc-hero {
   place-content: center;
