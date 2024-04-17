@@ -12,9 +12,9 @@ tags:
     - innovation
 ---
 
-When leaded gasoline was introduced in the early 1920s, it was a real innovation. Every engine suddenly ran better, performed better and lasted longer. Consumers rushed to it, and for decades it was the gold standard. Then we learned about the harmful effects of lead and lead pollution. By the mid-1960s we knew the stuff was clearly harmful and still it wasn’t entirely phased out in the US until 1996.
+When leaded gasoline was introduced in the early 1920s, it was a real innovation. Every engine suddenly ran better, performed better and lasted longer. Consumers rushed to it, and for decades leaded gas was the gold standard. Then we learned more about the harmful effects of lead and lead pollution. By the mid-1960s we knew it was terrible stuff, dangerous to the public health, and still it wasn’t entirely phased out in the US until 1996.
 
-Similarly, asbestos was seen as a breakthrough innovation when it was introduced. It was fire-resistant, made excellent insulation, durable and cheap. Usage was ubiquitous in construction through most of the 20th century. Then it took 35 years from the first Surgeon General warning about the stuff until the EPA finally banned the stuff in 1989.
+Similarly, asbestos was seen as a breakthrough innovation when it was introduced. This stuff was _amazing_ -- fire-resistant, an excellent insulator, durable and cheap. We used it everywhere in construction through most of the 20th century. It took 35 years from the first Surgeon General warning about the stuff until the EPA finally banned the stuff in 1989.
 
 On the web today, we’re living in the age of leaded gasoline and asbestos. We’ve introduced innovation after innovation, disruption after disruption, but the thing we’ve disrupted most may be the web itself. Usability is at an all-time low. Sites are painfully slow. Basic functionality baked into the HTML spec for decades is broken. We optimize for marketing or developer experience while the people using the sites are left baffled by simple content that won’t load, back buttons that won’t work, and other erratic, janky behavior.
 
