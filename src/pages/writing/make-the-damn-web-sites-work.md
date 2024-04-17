@@ -1,5 +1,5 @@
 ---
-title: "We’ve got to make the damn websites&nbsp;work"
+title: "We’ve got to make the damn websites work"
 description: "Is it the most transformative thing we can do on the web in 2024?"
 date: 2024-04-16
 parent: 'Writing'
