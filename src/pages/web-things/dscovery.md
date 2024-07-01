@@ -79,7 +79,9 @@ There are also a lot of companies I'm not currently importing jobs from, and som
 ### What's next?
 One of the things I learned as I put this together is that there are some really great civic tech firms that have decided, for whatever reason, to not join the DSC. I'll be adding some of them, too, starting with more firms in the [Digital Women-Owned Small Business Alliance](https://www.digitalwosballiance.org), which has considerable overlap with the DSC.
 
-I'm also planning on introducing some methods to filter results, and perhaps some custom user-centered views. 
+I'm also planning on introducing some methods to filter results by practice, and perhaps some custom user-centered views. 
+
+I'm also thinking about how I might pull in some job details, particularly salary info.
 
 If you have thoughts on what you'd like to see, drop me a note in [the repo issues](https://github.com/tBaxter/dscovery/issues/).
 
