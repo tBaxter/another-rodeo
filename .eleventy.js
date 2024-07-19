@@ -86,7 +86,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByTags("writing");
   });
   eleventyConfig.addCollection("links", function (collectionApi) {
-    return collectionApi.getFilteredByTags("link");
+    return collectionApi.getFilteredByTags("link").reverse().slice(0, 15);
   });
 
   /* Markdown Overrides */
