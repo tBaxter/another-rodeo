@@ -37,7 +37,7 @@ Monark ceased to exist after 1957, following a buy-out by Huffman/Huffy. Sieberl
 
 I started out buying a classic cruiser, I got a lesson in America's 20th century manufacturing boom and bust. 
 
-So anyways, on to the bike: I was wanting to build a classic "[Klunker](https://www.turbochaos.com/cars/what-is-a-klunker-bike/)" and when this one turned up on the local marketplace, I liked the details of the frame. So I threw out a low offer and was surprised when it was accepted. Next thing I knew I was driving a half-hour out of town to pick it up. Once I got it home I took some pics to document the "before" state...
+But, about that bike: I was wanting to build a classic "[Klunker](https://www.turbochaos.com/cars/what-is-a-klunker-bike/)" and when this one turned up on the local marketplace, I liked the details of the frame. So I threw out a low offer and was surprised when it was accepted. Next thing I knew I was driving a half-hour out of town to pick it up. Once I got it home I took some pics to document the "before" state...
 
   {% figure img_path "orig-cockpit.jpeg", "At some point long ago it had been repainted. Possibly with house paint. Also, I've never seen a stem quite like that one before." %}
 
@@ -62,3 +62,28 @@ I pretty much immediately began stripping it down, and was really pleased with h
 And that's as far as I've made it with it so far. I've only had it a week!
 
 Nevertheless, parts are on the way and I'm looking forward to the build. More updates will come soon.
+
+### August 18: Polishing, modernizing & test-fitting
+
+  {% figure img_path "polished.jpeg", "After wet-sanding and polishing, I was pretty happy with the finish." %}
+
+You really can get good results from a rattle-can paint job, but it takes a _lot_ of patience and work. I'm willing to work, but not always patient enough. Nevertheless, I was pretty happy overall with the paint after wet-sanding and polishing, especially considering the number of nicks and divots in the nearly 80-year-old steel. I may still give it a bit more love, but it's really looking pretty good to my eyes. 
+
+The original headbadge also cleaned up nicely. I wish some prior owner hadn't "touched up" the paint, but I'm not going to try to correct it -- it can wear it's history. I just wanted to polish the grime off and bring back some shine.
+
+  {% figure img_path "bb.jpeg", "Conversion kit." %}
+
+I put in a nice [bottom bracket conversion kit](https://amzn.to/3McpS9k) so I can use modern three-piece cranks. I also had a [nice, light Sunlite bottom bracket with chrome-moly spindle](https://amzn.to/3X8qWBl) in the toolkit, so that will save a few grams, too. I considered external bearings and a hollowtech crank, but I'm not sure how well they'd play with the conversion kit, and good quality square taper stuff isn't much heavier at all. Plus I have a lot of good square taper stuff laying around already.
+
+  {% figure img_path "threadless.jpeg", "And another conversion kit." %}
+
+This bike pulled another rabbit out of its hat up front, where I've fitted a [threadless headset](https://www.etsy.com/listing/1526775966/old-school-bmxschwinn-conversion-headset). Basically, these old American frames used a head tube that's within a gnat's whisker of the modern 1 1/8 standard, so some enterprising soles have taken machined about 0.01 inched off a modern alumninum headset and _voila_ it all fits. 
+
+I had bought a fork for the build, but when I put it altogether it looked goofy. So for now I've put a parts-bin GT fork on there, and I actually kinda like it, even in it's partially sanded unfinished current state.
+
+  {% figure img_path "test.jpeg", "Testing bars and stem." %}
+
+Since I was throwing some parts-bin bits at it, I added a stem and some bars. Not exactly what I'd envisioned, but I like them for now and the price was right.
+
+{% include 'affiliate.md' %}
+
