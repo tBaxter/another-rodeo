@@ -57,7 +57,7 @@ I did leave a few off the list here if they duplicated others, if I am not smart
 
 Artwork: "Sisyphus" by Jeffrey Hummel
 
-Contributors (who wished to be identified) include Blaise Vignon, Caleb Huitt, Stephen Harrison and Michael Van Nieuwenhoven. Thank you all, smart and funny people!
+Contributors (who wished to be identified) include Blaise Vignon, Caleb Huitt, Steven Harrison and Michael Van Nieuwenhoven. Thank you all, smart and funny people!
 
 If you submitted any of these and would like to be credited, please [let me know via a Github Issue](https://github.com/tBaxter/another-rodeo/issues). Or if you know my email address, just shoot me an email. That's fine, too. Be sure to tell me _how_ you would like to be credited.
 
