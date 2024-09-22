@@ -90,9 +90,10 @@ Since I was throwing some parts-bin bits at it, I added a stem and some bars. No
 
 I knew when I decided to paint the frame white that I was going to have to introduce some visual interest elsewhere, so I decided to make some pretty flashy wheels, starting with some [red anodized SE Racing Wheels](https://amzn.to/3ZApOIC). 
 
+  {% figure img_path "se_rims.jpeg", "Very red rims." %}
+
 Because BMX and cruiser rims are nearly universally 36 holes, I was a little limited in my choices for 36H disc hubs, but Shimano came through with suitable [Deore hubs](https://amzn.to/4edWOdY) for a great price. The whole thing was laced up with double-butted black spokes and chrome brass nipples. They are definitely eye-catching. 
 
-  {% figure img_path "se_rims.jpeg", "Very red rims." %}
 
   {% figure img_path "front_rim.jpeg", "Lacing the front was straightforward." %}
 
