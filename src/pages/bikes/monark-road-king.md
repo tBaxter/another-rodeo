@@ -48,7 +48,7 @@ But, about that bike: I was wanting to build a classic "[Klunker](https://www.tu
 
   {% figure img_path "mesinger.jpeg", "I don't think I'll be keeping this old Mesinger seat. You can get a better view of the neat seatstay arrangement, though." %}
 
-I pretty much immediately began stripping it down, and was really pleased with how easy that went. I was prepared for every bolt to be stripped, a rusted-in-place seat post and stem, and all sorts of other horrors. But really it came apart with no problems, with just a little penetrating oil and patience.
+I pretty much immediately began stripping it down, and was really pleased with how easy that went. I was prepared for every bolt to be stripped, a rusted-in-place seat post and stem, and all sorts of other horrors. But really it came apart with no problems, just a little penetrating oil and patience.
 
   {% figure img_path "stripped.jpeg", "Stripped down, it weighed in at 8 pounds. No featherweight, to be sure, but only a few ounces more than a modern aluminum mountain bike frame I won't shame by name." %}
 
