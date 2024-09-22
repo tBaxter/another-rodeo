@@ -80,7 +80,7 @@ I put in a nice [bottom bracket conversion kit](https://amzn.to/3McpS9k) so I ca
 
 This bike pulled another rabbit out of its hat up front, where I've fitted a [threadless headset](https://www.etsy.com/listing/1526775966/old-school-bmxschwinn-conversion-headset). Basically, these old American frames used a head tube that's within a gnat's whisker of the modern 1 1/8 standard, so some enterprising souls have taken machined about 0.01 inched off a modern alumninum headset and _voila_ it all fits. 
 
-I had a fork I had purchased for the build, but when I put it altogether it looked goofy. So for now I've put a parts-bin GT fork on there, and I actually kinda like it, even in it's partially sanded unfinished current state.
+I had a fork I had purchased for the build, but when I put it altogether it looked goofy. So for now I've put a parts-bin GT fork on there, and I actually kinda like it, even in the partially sanded unfinished current state.
 
   {% figure img_path "test.jpeg", "Testing bars and stem." %}
 
