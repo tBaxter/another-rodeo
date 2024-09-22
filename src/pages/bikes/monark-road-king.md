@@ -115,6 +115,8 @@ Because BMX and cruiser rims are nearly universally 36 holes, I was a little lim
 
   Cables were managed by some little [clip on guides](https://amzn.to/3zw5DAN) that were pretty slick.
 
+  The seat was a bit of a hiccup, as the original post measured 21.78 mm, and nothing is that size. Nothing. So after looking fruitlessly I decided not to worry about it and just cleaned up the original as best as I could. I did have a nice [Charge saddle](https://amzn.to/4dfUqSH) that completed the white/black/red motif.
+
   Most of the other stuff was left over from other projects. Pedals, cables, even the crankset, it was all just laying around, so I went ahead and built it up, at least to establish a baseline. 
 
     {% figure img_path "first_build.jpeg", "Freshly built." %}
@@ -129,6 +131,7 @@ Because BMX and cruiser rims are nearly universally 36 holes, I was a little lim
   *  I need to either pick up a disc brake fork or fit some V-brakes on the front (and risk messing up that pretty red rim).
   * It needs a spacer under the stem. Right now there's too much movement.
   * The disc brake isn't adjusted quite right and tends to squeal.
+  * I don't like the derailleur I used and need to clean up a better one.
   * My cabling could be a lot tidier.
 
   None of this stuff is particularly surprising with such an involved build, and none of it is all that hard to sort out. Expect another update shortly!
