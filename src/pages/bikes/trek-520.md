@@ -2,7 +2,7 @@
 title: Trek 520 
 description: A great bike, with a few caveats
 started: 2021-08-07
-date: 2024-07-18
+date: 2022-07-18
 bike: Trek 2100
 tags:
   - bikes
