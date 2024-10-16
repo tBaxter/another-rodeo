@@ -19,7 +19,7 @@ parent: 'Bikes'
 
       {% figure img_path "as-found.jpeg", "As I found it." %}
 
-  This one is also a Monark-made frame (a twin to the last one) but without any badges I don't know if it was originally another Road King, or maybe a Monark Rocket, or some other badge-engineered Monkark. I just know it's the same frame, and from the same era: mid-to-late 40s.
+  This one is also a Monark-made frame (a twin to the last one) but without any badges I don't know if it was originally another Road King, or maybe a Monark Rocket, or some other badge-engineered Monark. I just know it's the same frame, and from the same era: mid-to-late 40s.
   
   And it is definitely in rough shape, maybe worse than the last one, with a bad home paint job and plenty of rust. 
 
