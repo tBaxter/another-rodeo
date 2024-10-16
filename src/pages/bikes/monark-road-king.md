@@ -1,8 +1,8 @@
 ---
 title: Road King
-description: Bringing a 1948 cruiser into the 21st century.
+description: Bringing a 1948 cruiser bicycle into the 21st century.
 started: 2024-08-08
-date: 2024-09-22
+date: 2024-10-16
 tags:
   - bikes
   - monark
@@ -11,7 +11,7 @@ tags:
   - post
 bike: Road King
 img_path: /img/bikes/road-king/
-thumb: as-purchased.jpeg
+thumb: complete.jpeg
 parent: 'Bikes'
 ---
 
@@ -32,13 +32,13 @@ So that's how the now largely forgotten [Monark Silver King](https://www.madeinc
 
   {% figure img_path "as-purchased.jpeg", "1948 Monark-made Road King bicycle." %}
 
-Which found it's way to me recently.
+Which found its way to me recently.
 
 Monark ceased to exist after 1957, following a buy-out by Huffman/Huffy. Sieberling Rubber made it to the mid-60s before being gobbled up by Firestone, and then later becoming part of the multinational Bridgestone corporation. 
 
 I started out buying a classic cruiser, I got a lesson in America's 20th century manufacturing boom and bust. The bicycle is going to get a lesson in how bicycle technology has progressed over the past 75 years.
 
-But, about that bike: I was wanting to build a classic "[Klunker](https://www.turbochaos.com/cars/what-is-a-klunker-bike/)" and when this one turned up on the local marketplace, I liked the details of the frame. So I threw out a low offer and was surprised when it was accepted. Next thing I knew I was driving a half-hour out of town to pick it up. Once I got it home I took some pics to document the "before" state...
+But, about that bike: I had been wanting to build a classic "[Klunker](https://www.turbochaos.com/cars/what-is-a-klunker-bike/)" for awhile. When this one turned up on the local marketplace, I liked the details of the frame, so I threw out a low offer and was surprised when it was accepted. Next thing I knew I was driving a half-hour out of town to pick it up. Once I got it home I took some pics to document the "before" state...
 
   {% figure img_path "orig-cockpit.jpeg", "At some point long ago it had been repainted. Possibly with house paint. Also, I've never seen a stem quite like that one before." %}
 
@@ -60,9 +60,7 @@ I pretty much immediately began stripping it down, and was really pleased with h
 
   {% figure img_path "painted.jpeg", "I really debated what color to paint it, but the bike kept telling me it wanted to be white. So I listened. Here it's been sprayed but still needs final wet-sanding and polishing." %}
 
-And that's as far as I've made it with it so far. I've only had it a week!
-
-Nevertheless, parts are on the way and I'm looking forward to the build. More updates will come soon.
+That's as far as I made it in the first week, but parts were on the way.
 
 ### August 18: Polishing, modernizing & test-fitting
 
@@ -134,7 +132,24 @@ Because BMX and cruiser rims are nearly universally 36 holes, I was a little lim
   * I don't like the derailleur I used and need to clean up a better one.
   * My cabling could be a lot tidier.
 
-  None of this stuff is particularly surprising with such an involved build, and none of it is all that hard to sort out. Expect another update shortly!
+  None of this stuff is particularly surprising with such an involved build, and none of it is all that hard to sort out. 
+
+  ### October 16: Sorting it out
+
+  I continued tweaking and tuning and sorting it out. With a big custom build like this one, it's not surprising. 
+
+  At this point, I've taken care of most all of my to-do list above and the bike is riding much better. Probably the most visible change is the switch to some massive BMX cruiser bars. This entailed re-cabling, swapping out the shifters and brake levers, and a lot of other small changes. I'm not sure it was worth it, but they do look cool.
+
+      {% figure img_path "bars.jpeg", "The complete bike, hanging out by some rocks." %}
+
+      {% figure img_path "complete-rear.jpeg", "A rear view of the 'finished' bike." %}
+
+Honestly, I may revert back to the low-rise bars. I haven't decided. I'm feeling pros and cons each way.
+
+But regardless, I think that's about it for this bike, at least for now. Maybe after riding it a bit I'll think of something else I want to do. For now, though, I think I can call this one finished.
+
+That's good, because I've already bought the next one.
+
 
 {% include 'affiliate.md' %}
 
