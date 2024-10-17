@@ -16,7 +16,7 @@ It's a question I've heard a lot over the years, from a lot of frustrated manage
 
 #### _"Seriously, why are my engineering teams so much slower than they used to be?"_
 
-I get it. The frustration is palpable. A team that used to cook along now appears to be stuck in molasses. As they get slower and slower, it's confounding to everyone waiting for the next major feature to be delivered, or even just looking at a burndown chart. It can be confounding and frustrating to the team, too. 
+I get it. The frustration is palpable. A team that used to cook along now appears to be stuck in molasses. They get slower and slower, and it's confounding to everyone waiting for the next major feature to be delivered, or even just looking at a burndown chart. It can be confounding and frustrating to the team, too. 
 
 But I'm here to tell you, the frustration is likely misplaced: Teams slowing down as they mature and grow is not only normal, it may be _better_. 
 
