@@ -12,8 +12,7 @@ tags:
     - velocity
 ---
 
-
-It's a question I've heard a lot over the years, from a lot of frustrated managers and stakeholders. 
+It's a question I've heard a lot over the years, from a lot of frustrated managers and stakeholders. They can't get past it.
 
 #### _"But why are my engineering teams so much slower than they used to be?"_
 
