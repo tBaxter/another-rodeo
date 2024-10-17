@@ -39,6 +39,8 @@ Or, to put it another way, early on a team may only have to satisfy _an idea_, w
 
 The team may be cranking along like the same high-efficiency machine they've always been, but more demands means more backlog. While the throughput may not change, the time to satisfy any one request may get a lot longer, which makes each individual stakeholder think the team is now slower than they used to be. They're not, they just may be slower to get to _your_ request.
 
+
+### This is still a good team.
 The irony is that all those factors are positive outcomes of a successful, maturing team. They are also, notably, largely out of control of the people on the team.
 
 But still, most discussions around improving velocity start from the perspective of "how do we get these teams to go faster." And the short answer to that is that you don't. Assuming the team is continuing to work well together, then any perceived slowdown is probably not true -- they're likely working as fast as they ever did -- and also ignoring how the team and program has matured and works in a different context now.
