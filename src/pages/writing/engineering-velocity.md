@@ -14,7 +14,7 @@ tags:
 
 It's a question I've heard a lot over the years, from a lot of frustrated managers and stakeholders. They can't get past it.
 
-#### _"But why are my engineering teams so much slower than they used to be?"_
+#### _"Seriously, why are my engineering teams so much slower than they used to be?"_
 
 I get it. The frustration is palpable. Seeing a team that used to just cook along appear to get slower and slower is confounding to everyone waiting for the next major feature to be delivered, or even just looking at a burndown chart. It can be confounding and frustrating to the team, too. 
 
