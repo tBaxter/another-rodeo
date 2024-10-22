@@ -1,6 +1,6 @@
 ---
 title: "Engineering velocity (Part 2)"
-description: "Your engineering team is slower than they used to be. Here's what to do about it."
+description: "Your team seems slower...g Here's what to do about it."
 date: 2024-10-22
 parent: 'Writing'
 img_path: /img/writing/
