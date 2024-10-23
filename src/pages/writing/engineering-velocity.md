@@ -47,6 +47,6 @@ But still, most discussions around improving velocity start from the perspective
 
 So if you're a team getting hit with questions about why you've slowed down, what can you do?
 
-[Take a look at part two!](https://another.rodeo/engineering-velocity-part-2/)
+[Take a look at part two!](/engineering-velocity-part-2/)
 
 
