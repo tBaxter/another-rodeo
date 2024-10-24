@@ -15,7 +15,7 @@ tags:
 So I recently [bought an old bike](/monark-2/) -- nothing new for me -- but as I was poking 
 around on it, I realized something _was_ unusual: I'd bought a skiptooth bike. I had questions.
 
-So first, what is a "skiptooth" bike? Without getting too much into bike nerdery (I do that plenty elsewhere around here) the basics are this: modern bike chains have 1/2" between their pins. But up until around 1950 or thereabouts, most chains used an asynchronous one-inch spacing, with long links alternating with short links between rollers. This was called "skiptooth" because the sprockets were missing one tooth in between each tooth. They skipped those.
+So first, what is a "skiptooth" bike? Without getting too much into bike nerdery (I do that plenty elsewhere around here) the basics are this: Modern bike chains have 1/2" between their pins, but that wasn't always the case. Up until around 1950 or thereabouts, most chains used an uneven one-inch spacing, with long links alternating with short links between rollers. This was called "skiptooth" because the sprockets were missing one tooth in between each tooth. They skipped those.
 
 What? Yeah. Take a look at the picture above to visualize it, cause it just seems weird. Why not just make them all the same size?
 
