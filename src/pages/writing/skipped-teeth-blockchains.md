@@ -21,7 +21,7 @@ What? Yeah. Take a look at the picture above to visualize it, cause it just seem
 
 Because it was mimicing an earlier 1" spacing standard from the 1890s or so called... wait for it... "blockchain." 
 
-The original blockchain literally had big 1" steel blocks, with short linking plates between them. It didn't work nearly so well for bicycles as it did heavy machinery, but it was the first viable bike chain. 
+The original blockchain literally had big 1" steel blocks, with short linking plates between them. I believe the thinking was to limit the amount of parts that bend so it would be stronger. This didn't work nearly so well for bicycles as it did heavy machinery, but it _was_ the first viable bike chain. 
 
   {% figure img_path "blockchain.jpeg" "An example of a blockchain as used for a bicycle. Photo from thecabe.com." %}
 
