@@ -1,6 +1,6 @@
 ---
 title: "Building DSCovery"
-description: "Here's how I built DSCovery, the aggregator for jobs in civic tech, and a few lessons learned."
+description: "How I built DSCovery, the civic tech jobs aggregator and lessons learned."
 date: 2024-11-18
 parent: 'Web Things'
 tags:
