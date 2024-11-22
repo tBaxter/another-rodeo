@@ -52,9 +52,13 @@ For example, some of the ATSs are really difficult to parse, usually because the
 
 In some of those cases I've been able to find the raw JSON it's hydrating the page from. In those cases I sidestep BeautifulSoup, grab the JSON and parse that. But in other cases the JSON is also unavailable and I'm stuck. Workable, for example, just seems unparseable, so I can't yet import jobs from Blue Tiger, Friends from the City, or Pixel Creative. That bums me out. They're good folks.
 
-And some ATS are just completely stupid and awful to work with. Usually, but not always, these are old-school "enterprise" offerings that feature lousy markup and horrific user interfaces: ADP, ApplicantPro, UKG, that sort of thing. I really feel for the companies saddled with these systems. In some cases -- Ad Hoc, for example -- the company is important, but system is so bad I've just given up and am pulling from LinkedIn. It's not ideal. In other cases, I'm looking for their to either be enough jobs or enough companies to make it worthwhile. Many of these companies may never get importers written.
+And some ATS are just completely stupid and awful to work with. Usually, but not always, these are old-school "enterprise" offerings that feature lousy markup and horrific user interfaces: ADP, ApplicantPro, UKG, that sort of thing. I really feel for the companies saddled with these systems. 
 
-Anyways, I continue to iterate and add more firms and more functionality.
+In some cases (like, Ad Hoc, for example) I think the company is important enough that I really want to include them, but their ATS system is so incredibly bad that it's just impossible. All I can do is pull from LinkedIn. It's not ideal. To all the DSC companies (and anyone else who'll listen) listen to this advice: Don't listen to fools trying to sell you these "enterprise" ATSs. They are garbage, and the person trying to convince you to switch to them should not be listened to. 
+
+There are also some cases where the ATS is too niche, or the companies are so small, that I'm waiting for some more jobs to import before going through the effort of writing a new importer.
+
+At any rate, I continue to iterate, add more firms, and more functionality.
 
  The whole thing is hanging together pretty well so far, which makes me happy. It'd been awhile since I'd coded up much of anything, really, so I was glad to see I could still do it.
 
