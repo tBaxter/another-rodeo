@@ -135,3 +135,7 @@ It bears repeating: as soon as one person on the team isn't in the same place as
 
 So build your communication to leverage the strengths of distributed teams. Otherwise, you're just talking. Then forgetting. Then talking again.
 And eventually — scheduling another meeting to talk about what you forgot.
+
+_A postscript: A couple of people, notably [Rich Lafferty](https://bsky.app/profile/rich.lafferty.ca) and [Matt Menzenski](https://bsky.app/profile/menzen.ski) pointed out that Asynchronous isn't inherently superior, and that one can (and should) intentionally choose to optimize collaboration through coworking sessions and other synchronous activities._ 
+
+_They are, of course, correct. What's important is that you have the systems and processes in place to push asynchronous work forward, allowing you to focus and maximize synchronous time as you wish. It allows you to be more intentional about your communications and when you choose to have them._
