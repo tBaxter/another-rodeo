@@ -5,6 +5,7 @@ const eleventySass = require("@11tyrocks/eleventy-plugin-sass-lightningcss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 // Helper packages
+const Image = require("@11ty/eleventy-img");
 const slugify = require("slugify");
 const glob = require('fast-glob');
 const path = require('path');
@@ -12,6 +13,8 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
 const { DateTime } = require("luxon");
+
+
 
 
 module.exports = function (eleventyConfig) {
@@ -28,12 +31,38 @@ module.exports = function (eleventyConfig) {
   // TO-DO: Move these into shortcodes folder
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   // adds ability to easily create figure/figcaption
-  eleventyConfig.addShortcode("figure", function (img_path, url, desc, classname="") {
-    return `<figure class="image ${classname}">
-      <img src="${ img_path }${ url }" alt="${ desc }" />
-      <figcaption>${ desc }</figcaption>
-    </figure>`
+  eleventyConfig.addAsyncShortcode("figure", async function (img_path, img_name, desc = "", classname = "") {
+  // Remove leading slash so path.join works
+  const cleanPath = img_path.replace(/^\/+/, "");
+
+  // Source image file in your project
+  const inputFile = path.join("src", cleanPath, img_name);
+
+  // Generate optimized images
+  const metadata = await Image(inputFile, {
+    widths: [350, 700, 1000],
+    formats: ["webp", "jpeg"],
+    outputDir: path.join("public", cleanPath), // writes to public/img/bikes/handcycle/
+    urlPath: "/" + cleanPath,                  // browser sees /img/bikes/handcycle/...
   });
+
+  // HTML attributes
+  const imageAttributes = {
+    alt: desc,
+    class: classname,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // Generate <picture> HTML
+  const imageHtml = Image.generateHTML(metadata, imageAttributes);
+
+  // Wrap in <figure>
+  return `<figure class="image ${classname}">
+    ${imageHtml}
+    <figcaption>${desc}</figcaption>
+  </figure>`;
+});
 
   // ------------------------------------------------------------------------
   // Shortcodes

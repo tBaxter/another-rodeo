@@ -8,17 +8,21 @@
     <meta name="generator" content="{{ eleventy.generator }}" />
     <title>{{pageTitle|safe }}</title>
     <meta name="description" content="{{pageDescription}}" />
-    <link rel="icon" href="{{ '/img/horseshoe.svg' | url }}?v=4" />
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="{{ '/css/main.css' | url }}?v=5" rel="stylesheet" />
 
+    <link rel="icon" href="{{ '/img/horseshoe.svg' | url }}?v=4" />
+
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ meta.siteName }}" href="/feed/" />
-    <meta name="og:title" content="{{pageTitle}}" />
-    <meta name="og:description" content="{{pageDescription}}" />
+    <meta property="og:title" content="{{pageTitle}}" />
+    <meta property="og:description" content="{{pageDescription}}" />
     {% if thumb %}
-      <meta name="og:image" content="https://another.rodeo{{img_path}}{{thumb}}" />
+      <meta property="og:image" content="https://another.rodeo{{img_path}}{{thumb}}" />
     {% else %}
-      <meta name="og:image" content="https://another.rodeo/img/horseshoe.svg" />
+      <meta property="og:image" content="https://another.rodeo/img/horseshoe.svg" />
     {% endif %}
   </head>
   <body>
