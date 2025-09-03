@@ -1,8 +1,11 @@
 ---
 title: 'Fiberglass "egg" camper restoration'
+layout: section_index
+collectionName: camper
 eleventyNavigation:
   key: The Camper
 ---
+
 
   <div class="tdbc-section">
     <ul class="tdbc-column-container">

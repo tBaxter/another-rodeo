@@ -1,25 +1,18 @@
 ---
 layout: base.njk
 ---
-{% include 'topnav.njk' %}
 
-<header class="tdbc-hero">
-  {% if thumb %}
-    <div class="hero-hold">
-      <img src="{{ img_path }}{{ thumb }}" alt="{{ thumb_alt }}" class="hero" />
-    </div>
-  {% endif %}
-    <div class="tdbc-content-maxlength tdbc-mx-auto">
-      <h1 class="tdbc-ink--primary ">{{ title }}</h1>
-      <h2 class="tdbc-lead tdbc-content-maxlength tdbc-mx-auto">
-        {{ description }}
-     </h2>
-     </div>
-</header>
-<main class="tdbc-container">
-  <article class="tdbc-mx-auto">
-    {{ content | safe }}
-     <small>Published <time>{{ date | prettyDate }} in {{ parent }}</time>
-     </small>
-  </article>
+<main>
+    
+    <article>
+      <h1>{{ title }}</h1>
+      {% if description %}
+        <h2 class="section-lead">{{ description }}</h2>
+      {% endif %}
+      {{ content | safe }}
+      <small>
+        Published <time>{{ date | prettyDate }}</time>
+        {% if parent %} in {{ parent }}{% endif %}
+      </small>
+    </article>
 </main>

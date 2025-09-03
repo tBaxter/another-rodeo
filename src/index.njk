@@ -1,108 +1,42 @@
 ---
 layout: base.njk
-templateEngineOverride: md, njk
 ---
-{# A tiny extra style for the starter home page, intended to be removed as you customize to fit your own content! #}
-
-<style>
-  .logo {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 1rem;
-  }
-
-  .logo svg {
-    width: 100%;
-    height: 100%;
-  }
-
-  .tdbc-hero {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    margin-bottom: 0;
-  }
-
-  #quickstart + ol li:first-child,
-  #quickstart + ol li:first-child p {
-    font-size: 1.5rem;
-  }
-</style>
-<nav class="tdbc-sitenav">
-  <div class="tdbc-sitenav__container">
-  {% set navPages = collections.all | eleventyNavigation %}
-    <ul role="list" class="tdbc-sitenav__navlist tdbc-list-unstyled">
-      {% for item in navPages %}
-      <li>
-        <a href="{{ item.url }}">
-            {{ item.title }}
-        </a>
-      </li>
+<main class="layout">
+  <div id="mine">
+  <section class="recently">
+    <div class="featured-card">
+      {%- set post = collections.recent | first %}
+      {%- include 'card.njk' %}
+    </div>
+    <div class="recent-grid">
+      {%- for post in collections.recent %}
+        {%- if loop.index > 1 %}
+          {% include 'card.njk' %}
+        {%- endif %}
       {%- endfor %}
-    </ul>
+    </div>
+  </section>
+  <section class="older">
+    <h2 class="section-title">Older Rodeos</h2>
+    <div class="older-list">
+      {%- for post in collections.older %}
+        {%- if post.data.title and post.data.description and post.data.date %}
+          {% include 'card.njk' %}
+        {%- endif %}
+      {%- endfor %}
+    </div><!-- /older-list -->
+  </section>
   </div>
-</nav>
-<header class="tdbc-hero">
-  <div class="tdbc-container">
-    <span class="logo">
-     <svg
-   width="186.46935"
-   height="192.4628"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     id="g1"
-     transform="matrix(1.0050401,0,0,0.96228611,1.4104965,-0.87119241)"
-     style="fill:#c87137">
-    <path
-       d="m 58.5,176.25 -19.486773,20.90572 -3.741181,1.89142 c 0,0 -21.183553,-31.97962 -29.5485008,-57.39141 C -3.0786953,114.91548 -0.53968219,89.002797 2,80.5 2.074451,80.25074 7.1181343,54.802397 25.745591,33.68715 37.688663,20.14902 53.214524,11.40794 62,7.25 71.104182,2.9412247 82,1.5 98,2 c 16,0.5 29.85114,4.5992141 41,12.25 12.02205,8.25 20.09658,17.262556 24.52205,23.31285 C 168.27646,44.06285 173.5,53 175.75,58.25 c 7.14301,16.66703 7.75,28 7.25,45.25 -0.5,17.25 -2.25,26.25 -8,41 -5.75,14.75 -7.9515,20.85859 -16.98236,33.26571 -7.1533,9.82761 -15.47546,20.78852 -16.80291,21.10999 0,0 -0.91623,2.85999 -4.16623,-0.89001 C 131.845,191.98165 110.66835,171.47828 114,167.75 124.5,156 126.16366,153.74321 129,158 c 9.7015,14.56005 24.25,-30 22.75,-51 -1.46067,-20.449423 -9.82936,-35.798536 -15,-42 -8.01142,-9.608589 -20.75,-18.75 -40.5,-18.75 -19.411659,0 -34.62447,5.129135 -45,16 -8.723545,9.140013 -12.508818,19.157124 -15.5,27.5 -4.255624,11.8696 -5.660251,24.48579 -5.276455,33.67144 C 30.883447,133.23188 32.75,140.75 34.75,148.5 c 1.55171,6.01288 6.80126,13.35142 8.5,13.75 2.306157,0.5411 8.333774,-4.81285 9.544091,-4.81285 1.719136,0 4.062059,4.94795 6.705909,8.31285 5.5,7 -1,10.5 -1,10.5 z"
-       style="fill:#c87137;stroke-width:2px"
-       fill="#c87137"
-       stroke="#000000"
-       stroke-width="2.000000"
-       id="path1" />
-  </g>
-</svg>
-    </span>
-    <h1 class="tdbc-ink--primary tdbc-mb-none">{{ meta.siteName }}</h1>
-    <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
-      {{ meta.siteDescription }}
-    </h2>
-  </div>
-</header>
-
-<main class="tdbc-container">
-  <div class="tdbc-section" id="index-multicol">
-    <ul class="tdbc-column-container">
-      {%- for page in collections.post | reverse -%}
-      <li class="tdbc-card">
-        {% if page.data.thumb %}<img class="thumb" src="{{ page.data.img_path }}{{ page.data.thumb }}" alt="" />{% endif %}
-        <div class="tdbc-card__content">
-          <a href="{{ page.url }}" class="tdbc-card__title">{{ page.data.title }}</a>
-          <p>
-            {{ page.data.description }}
-          </p>
-          <small>Tagged: {{ page.data.parent }}.<br>
-           Last rodeo: {{ page.date | prettyDate }}</small>
-
-        </div>
-      </li>
-      {%- endfor -%}
-    </ul>
-    <aside>
-      <h2>Currently enjoying</h2>
-      <ul class="linkroll">
-      {% for link in collections.links  %}<li>
-           <a href="{{ link.data.link }}">{{ link.data.title }}</a>
-           {{ link.content | safe }}
-        </li>{% endfor %}
-    </ul>
-    </aside>
-  </div>
-
-{{ content | safe }}
-
+  <aside class="sidebar">
+    <h2 class="section-title">Not My Rodeo<sup>*</sup></h2>
+    <small>* But I like it</small>
+    <div class="finds">
+      {%- for link in collections.links %}
+      <div class="find">
+        <a href="{{ link.data.link }}">{{ link.data.title }}</a>
+        {{ link.content | safe }}
+      </div>
+      {% endfor %}
+    </div>
+  </aside>
 </main>

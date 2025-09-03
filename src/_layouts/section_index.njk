@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+<h1 class="section-title">{{ title }}</h1>
+  {%- if description %}
+    <h2 class="section-lead">{{ description }}</h2>
+  {%- endif %}
+
+  <section class="older">
+    <div class="older-list">
+    {%- for post in collections[collectionName] | reverse %}
+      {%- if post.data.title and post.data.description and post.data.date %}
+        {% include 'card.njk' %}
+      {%- endif %}
+    {%- endfor %}
+  </div><!-- /older-list -->
+      
+  </section>
+  </div>
+</main>

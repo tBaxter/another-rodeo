@@ -23,6 +23,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/fonts");
   eleventyConfig.addPassthroughCopy("./src/img");
   eleventyConfig.addPassthroughCopy("./src/favicon.png");
+  eleventyConfig.addPassthroughCopy({ "src/css": "css" });
 
   // TO-DO: Move these into shortcodes folder
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
@@ -87,6 +88,12 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addCollection("links", function (collectionApi) {
     return collectionApi.getFilteredByTags("link").reverse().slice(0, 15);
+  });
+  eleventyConfig.addCollection("recent", function (collectionApi) {
+    return collectionApi.getFilteredByTags("post").reverse().slice(0, 3);
+  });
+  eleventyConfig.addCollection("older", function (collectionApi) {
+    return collectionApi.getFilteredByTags("post").reverse().slice(3);
   });
 
   /* Markdown Overrides */

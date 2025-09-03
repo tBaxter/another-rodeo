@@ -7,56 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content="{{ eleventy.generator }}" />
     <title>{{pageTitle|safe }}</title>
-    <meta
-      name="description"
-      content="{{pageDescription}}"
-    />
-    <link rel="icon" href="{{ '/favicon.png' | url }}" />
-    <link href="{{ '/css/style.css' | url }}?v=3" rel="stylesheet" />
-    <meta
-      name="og:title"
-      content="{{pageTitle}}"
-    />
-    <meta
-      name="og:description"
-      content="{{pageDescription}}"
-    />
+    <meta name="description" content="{{pageDescription}}" />
+    <link rel="icon" href="{{ '/img/horseshoe.svg' | url }}" />
+    
+    <link href="{{ '/css/main.css' | url }}?v=5" rel="stylesheet" />
+
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ meta.siteName }}" href="/feed/" />
+    <meta name="og:title" content="{{pageTitle}}" />
+    <meta name="og:description" content="{{pageDescription}}" />
     {% if thumb %}
-      <meta 
-        name="og:image"
-        content="https://another.rodeo{{img_path}}{{thumb}}"
-      />
+      <meta name="og:image" content="https://another.rodeo{{img_path}}{{thumb}}" />
     {% else %}
-    <meta 
-        name="og:image"
-        content="https://another.rodeo/img/horseshoe.svg"
-      />
+      <meta name="og:image" content="https://another.rodeo/img/horseshoe.svg" />
     {% endif %}
-    <link rel="preload" href="/fonts/baloo-2-v1-latin-500.woff2" as="font" type="font/woff2" crossorigin>
-    <!--<link rel="preload" href="/fonts/baloo-2-v1-latin-regular.woff2" as="font" type="font/woff2" crossorigin>-->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@;0,400;0&display=swap" as="font" type="font/woff2" crossorigin>
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="RSS Feed for {{ meta.siteName }}"
-      href="/feed/"
-    />
   </head>
   <body>
-    {{ content | safe }}
-
-    <footer class="tdbc-background--secondary">
-      <div class="tdbc-container tdbc-text-align-center">
-        <div class="tdbc-row tdbc-ink--light tdbc-mx-auto">
-          <p class="tdbc-mb-none">
+    {% include 'topnav.njk' %}
+    <div class="wrapper">
+      {%- if thumb %}
+        <figure>
+          <img src="{{ img_path }}{{ thumb }}" alt="{{ thumb_alt }}">
+        </figure>
+      {% endif %}
+      {{ content | safe }}
+      </div>
+      <footer>
+        <div>
+          <p>
             &copy; {% year %} {{ meta.siteName }} 
             • <a href="/about-carter">Carter Baxter</a>
             • <a href="/links">Links</a>
-            </p>
+          </p>
         </div>
-      </div>
-    </footer>
-    <!-- GoatCounter.com is an open source web analytics platform with No tracking of personal data. -->
+      </footer>
+    <!-- goatcounter is an open source, privacy-friendly web analytics platform. https://www.goatcounter.com/ -->
     <script data-goatcounter="https://rodeo.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
   </body>

@@ -1,0 +1,19 @@
+<div class="card">
+    {%- if post.data.thumb %}
+        <figure>
+        <img src="{{ post.data.img_path }}{{ post.data.thumb }}" alt="" />
+        </figure>
+    {%- endif %}
+    <div>
+        <a href="{{ post.url }}">
+            <h3>{{ post.data.title }}</h3>
+            <p>{{ post.data.description }}</p>
+        </a>
+        <div class="meta">
+            {%- if post.data.parent %}
+            <span class="tag">{{ post.data.parent }}</span>
+            {%- endif %}
+            <time datetime="{{ post.data.date }}">{{ post.data.date | prettyDate }}</time>
+        </div>
+    </div>
+</div>

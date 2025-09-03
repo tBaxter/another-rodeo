@@ -13,7 +13,7 @@ img_path: /img/web-things/
 thumb: dirigible.jpeg
 ---
 
-I was asked today how I built [DSCovery](https://dscovery.fly.dev), the aggregator I put together  awhile back to help people find jobs in civic tech.
+I was asked today how I built [DSCovery](https://dscovery.fly.dev), the aggregator I put together awhile back to help people find jobs in civic tech.
 
 I wish it was a better story. 
 
@@ -54,7 +54,7 @@ In some of those cases I've been able to find the raw JSON it's hydrating the pa
 
 And some ATS are just completely stupid and awful to work with. Usually, but not always, these are old-school "enterprise" offerings that feature lousy markup and horrific user interfaces: ADP, ApplicantPro, UKG, that sort of thing. I really feel for the companies saddled with these systems. 
 
-In some cases (like, Ad Hoc, for example) I think the company is important enough that I really want to include them, but their ATS system is so incredibly bad that it's just impossible. All I can do is pull from LinkedIn. It's not ideal. To all the DSC companies (and anyone else who'll listen) listen to this advice: Don't listen to fools trying to sell you these "enterprise" ATSs. They are garbage, and the person trying to convince you to switch to them should not be listened to. 
+In some cases (like, Ad Hoc, for example) I think the company is important enough that I really want to include them, but their ATS system is so incredibly bad that it's just impossible. All I can do is pull from LinkedIn. It's not ideal. To all the DSC companies (and anyone else who'll listen) listen to this advice: Don't listen to fools trying to sell you these "enterprise" ATSs. They are garbage, and the person trying to convince you to switch to them should not be listened to.
 
 There are also some cases where the ATS is too niche, or the companies are so small, that I'm waiting for some more jobs to import before going through the effort of writing a new importer.
 

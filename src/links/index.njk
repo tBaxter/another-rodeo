@@ -5,26 +5,21 @@ layout: base.njk
 eleventyImport:
   collections: ["links"]
 ---
-{% include 'topnav.njk' %}
 {% from "macros/linkCard.njk" import linkCard %}
 
-<header class="tdbc-hero">
-  <div class="tdbc-container">
-    <h1 class="tdbc-ink--primary tdbc-mb-none">{{ title }}</h1>
-    <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
-      {{ description }}
-    </h2>
-  </div>
+<header>
+  <h1 class="section-title">{{ title }}</h1>
+  {% if description %}
+    <h2 class="section-lead">{{ description }}</h2>
+  {% endif %}
 </header>
-<main class="tdbc-container">
-  <article class="tdbc-mx-auto">
-    {% block content %}
+<main class="wrapper">
+  <article>
     <ol class="cards-list">
-        {% for item in collections.links %}
-            {{ linkCard(item) }}
-        {% endfor %}
+      {% for item in collections.links %}
+        {{ linkCard(item) }}
+      {% endfor %}
     </ol>
-    {% endblock %}
   </article>
 </main>
 
