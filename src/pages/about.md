@@ -1,7 +1,6 @@
 ---
 title: "About this site"
 description: "We're doing it live! Whatever this site becomes, we're gonna build it out in the open so everybody can see all the half-baked ideas and dead ends."
-date: 2024-04-07
 parent: 'Web Things'
 tags:
   - about
@@ -10,6 +9,8 @@ tags:
 img_path: /img/web-things/
 thumb: building-it.jpeg
 ---
+### Sept 3, 2025
+I either forgot to update this change log for a long time, or forgot to update the site for a year and a half (other than content updates). Either way, I finally got sick of using someone else's template and am rolling out a fairly comprehensive styling refresh. I hope you like it.
 
 ### April 8
 I skipped some small updates over the past few weeks, but today sees the launch of some fairly major typography and hero image changes. 
