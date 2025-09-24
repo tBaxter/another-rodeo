@@ -2,6 +2,8 @@
 title: "About this site"
 description: "We're doing it live! Whatever this site becomes, we're gonna build it out in the open so everybody can see all the half-baked ideas and dead ends."
 parent: 'Web Things'
+date: 2025-09-03
+
 tags:
   - about
   - post
