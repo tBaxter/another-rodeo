@@ -83,7 +83,7 @@ Comfort and interior upgrades will follow. I plan to add sound deadening in the 
  I also need to get some preventive maintenance going soon: fluids, belts, maybe the radiator if it seems questionable. I don't have service records, so I need to figure out what's been neglected. 
 
 ## Why This Matters to me
-This isn’t just about fixing up an old truck. It’s about celebrating something built to last. Durable. Reliable. Better than it needed to be for what it cost.
+This isn’t just about fixing up an old truck. It’s about celebrating something built to last. Durable. Reliable. Better than it needed to be. Better than what it cost.
 
 We don’t see much of that these days, when everything we buy is the cheapest version someone thought they could get away with — more expensive, yet worse than before. We live in a world where even mac and cheese was changed to be cheaper and crappier, while the price went up. To maximize shareholder value. I don't care all that much what's good for shareholders, 
 
