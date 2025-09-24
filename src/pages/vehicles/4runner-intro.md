@@ -87,7 +87,7 @@ This isn’t just about fixing up an old truck. It’s about celebrating somethi
 
 We don’t see much of that these days, when everything we buy is the cheapest version someone thought they could get away with — more expensive, yet worse than before. We live in a world where even mac and cheese was changed to be cheaper and crappier, while the price went up. To maximize shareholder value. I don't care all that much what's good for shareholders, 
 
-I want something that's good for me. Something that's not designed to become obsolete, or to extract value from me. 
+I want something that's good for me, the purchaser. Something that's not designed or packaged to cheat me, to stop working, or to extract value from me, the purchaser. I paid for a thing, that's it. 
 An old 4Runner is never going to serve me ads, never going to spy on me, 
 and never going to be remotely bricked because I rejected some new AI-enabled update. 
 
