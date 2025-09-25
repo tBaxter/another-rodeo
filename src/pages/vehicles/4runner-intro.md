@@ -85,12 +85,11 @@ Comfort and interior upgrades will follow. I plan to add sound deadening in the 
 ## Why This Matters to me
 This isn’t just about fixing up an old truck. It’s about celebrating something built to last. Durable. Reliable. Better than it needed to be. Better than what it cost.
 
-We don’t see much of that these days, when everything we buy is the cheapest version someone thought they could get away with — more expensive, yet worse than before. We live in a world where even mac and cheese was changed to be cheaper and crappier, while the price went up. To maximize shareholder value. I don't care all that much what's good for shareholders, 
+We don’t see much of that these days, when everything we buy is the cheapest version someone thought they could get away with — more expensive, yet worse than before. We live in a world where even mac and cheese was changed to be cheaper and crappier, while the price went up. To maximize shareholder value. I don't care all that much what's good for shareholders, I want something that's good for me, the purchaser. Something that's not designed or packaged to cheat me, to stop working, or to extract value from me, the purchaser. I paid for a thing, that's it. 
 
-I want something that's good for me, the purchaser. Something that's not designed or packaged to cheat me, to stop working, or to extract value from me, the purchaser. I paid for a thing, that's it. 
-An old 4Runner is never going to serve me ads, never going to spy on me, 
+An old 4Runner is never going to serve me ads, never going to spy on me,
 and never going to be remotely bricked because I rejected some new AI-enabled update. 
 
-It will just keep going — if I take care of it. I like that reminder: with care, a thoughtfully designed, well-built machine can last. I like things that last.
+It will just keep going — if I take care of it. I like that reminder: with care, a thoughtfully designed, well-built machine can last. I like things that last. I am rejecting disposability.
 
 So this is the start. The journey *should* be as interesting as the destination. If not, I'm probably doing it wrong.
