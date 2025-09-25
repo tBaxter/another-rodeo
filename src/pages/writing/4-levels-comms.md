@@ -1,6 +1,7 @@
 ---
 title: "Failure to communicate"
 description: "The Four Levels of Remote Communication, or Why Your Team Forgets Everything"
+date: 2025-09-01
 parent: 'Writing'
 img_path: /img/writing/
 thumb: failure-to-communicate.jpeg
