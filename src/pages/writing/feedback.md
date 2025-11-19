@@ -1,99 +1,92 @@
 ---
-title: "Thermostats"
-description: "Tuning team temperature"
-date: 2025-11-15
+title: "Feedback doesn't scale"
+description: "Listening is always hard, and it only gets harder at scale."
+date: 2025-11-19
 parent: 'Writing'
 img_path: /img/writing/
-thumb: firealarm.jpeg
+thumb: crowd.jpeg
 tags:
     - writing
     - post
-    - culture
+    - communications
     - sustainability
     - management
 ---
 
-Bob blew up Slack before the standup even started. Notifications bounced and pinged. Channels filled with five-alarm emoji. “Urgent” flags multiplied like bad stickers across Outlook. Meetings popped up like mushrooms, each with the same headline: “EMERGENCY” and each with no agenda, but many demands. Bleary-eyed people scrambled to screens, paged teammates still asleep, spun up war rooms, and talked over one another as they fought today’s fire. 
+When you're leading a team of five or 10 people, feedback is pretty easy. It's not even really "feedback”: you’re just _talking_. You may have hired everyone yourself. You might sit near them (or at least sit near them virtually). Maybe you have lunch with them regularly. You know their kids' names, their coffee preferences, and what they're reading. So when someone has a concern about the direction you're taking things, they just... tell you. 
 
-Except there was no fire, only heat. It was just normal hiccups, and a very capable product manager had things completely under control. Nothing got fixed faster; it just got *louder*.
+You trust them. They trust you. It's just friends talking. You know where they're coming from.
 
-That was Bob’s way: Every question became a problem, every problem was a five-alarm blaze. We need an emergency meeting _right now_. Chaos first. Facts later. 
+At twenty people, things begin to shift a little. You’re probably starting to build up a second layer of leadership and there are multiple teams under you, but you're still fairly close to everyone. The relationships are there, they just may be a bit weaker than before. When someone has a pointed question about your strategy, you probably _mostly_ know their story, their perspective, and what motivates them. The context is fuzzy, but it’s still there.
 
-Time, money, and morale burned, burning out people along the way. “On fire” became the normal rhythm of the company. It became the core of the company culture. People panicked, bumped into each other, and they made mistakes.
+## Then you hit 100
+Somewhere around 100 people, the ground shifts underneath you, as you realize you don’t know everyone anymore. You just can't. There aren't enough hours in the day, and honestly, there aren't enough slots in your brain. 
 
-Bob thrived in it. He loved showing he could extinguish fires — fires he’d created. Bob thought surviving an emergency was a badge of honor, and that a constant state of “crisis mode” means everyone’s committed and “pushing hard.” He mistook adrenaline for progress, urgency for importance. Bob loved having a megaphone, being in the thick of it, and showing he could stand the heat — and that other folks couldn’t. 
+Suddenly you have people whose names you don’t recognize offering very sharp commentary about your “leadership.” They’re talking about you but they don’t *know* you. There’s no shared history, no accumulated trust, no sense of “we’ve been in the trenches together.” Your brain has no context for processing all these voices.
 
-Working with Bob left scars.
+*Who are these people? Why are they yelling at me? Are they generally reasonable, or do they complain about everything? Do they understand the constraints we're under? Do they have the full picture?*
 
-----
+Without an existing relationship, it feels like an attack, and your natural human response is to dismiss the criticism. Or worse, to get defensive. Attacks trigger our most primal instincts: fight or flight.
 
-News had broken fast that day, and it was a big, big story. By tomorrow morning the nation would be glued to a whole package of news we still needed to produce, and our website would sustain a more than million visitors an hour for the next 24 hours. The entire newsroom was on high alert, preparing for a long night and a tight deadline. Writers scrambled. Editors shouted. By mid-afternoon, almost everyone looked pretty frazzled. 
- 
-Except for Sam, my boss. Sam was definitely moving quickly, but he didn’t break a sweat. He was the calm center of the room.
+This is the point where a lot of leaders start to struggle. They still want to be open to feedback—they really do—but they're also drowning. They start trusting their intuition about what they should pay attention to and what they should ignore. Sometimes that intuition is right. Sometimes it's just... self-selected, stripped of context, pattern matching against existing biases and relationships.
 
-“We’ve done this before,” he said. “We know what to do.” 
+On top of that, each extra layer of management, each extra level to the top has separated you, and now you’re just not like them anymore. Their struggles are not your struggles anymore.
 
-Then, completely unflapped and unflappable, he’d go on to put out another fire, his third in the last 30 minutes. Minutes counted, and Sam had a lot of fires to put out before morning. That was the job.
+## At 200, it's a deluge
+By the time you reach 200 people or more, feedback isn't an actionable signal anymore. At that size, feedback stops being signal being noise. A big, echoing amphitheater of opinions, each louder than the last, each written in the tone of someone who is absolutely *certain* they understand the whole system (they don’t), the whole context (they don’t), and your motives (they definitely don’t).
 
-Sam didn’t deny the heat, he controlled it. He *absorbed* it. He lowered the temperature just enough so that everyone near him could think clearly, prioritize, and act. Sam was so cool, he made the whole room cooler.  Calm was his weapon. 
+And all those kudos you used to hear? Those dry up. When you had a close relationship with everyone, kudos came naturally. You were just talking. But now folks just expect you to lead, and if they’re happy with your leadership they’re probably mostly quiet about it. They're doing their jobs, trusting you, assuming things are generally fine.
 
-Sam was a thermostat.
+The people who are unhappy? They're loud. And there are a lot of them. 
 
----
+From where you sit, it feels like everybody's mad about everything all the time. And maybe they are! Or maybe it's just selection bias combined with the natural amplification that happens when people with similar grievances find each other.  You don't know if this is a real crisis or just three loud people who found each other in a Slack channel. You just can’t tell anymore.
 
-Many years ago, I was a waiter. To be precise, I was a very, very bad waiter. I may have been the worst waiter to ever carry a plate of food, a feat I only occasionally succeeded at. 
+Because feedback doesn’t scale. Humans scale poorly. Your nervous system definitely doesn’t scale.
 
-I ran around thoughtlessly, sloppily, perpetually forgetting things, forever “in the weeds,” as they say in the food and beverage business. Better servers would glide effortlessly from table to table, never missing a beat, while I was a disheveled, sweaty mess, constantly running, constantly behind. 
+## Why this happens
+Feedback doesn't scale because relationships don’t scale. With five people, you have some personal interaction with everyone on the team. At twenty, you interact with some, but not all. At 100 you still have personal relationships with 10 or 15 people, so there are a lot of gaps. At 200, your personal relationships are a tiny slice of the overall pie.
 
-I scrambled like I was on fire, and then I was fired. It was for the best, but I learned: frantic motion is not progress, and chaos doesn’t create results. Cool heads do.
+Making matters worse, as the din gets louder and louder, channels for processing all that feedback get smaller and smaller. Where you once had an open-door policy, now you have “office hours.” Sometimes. When we’re not too busy. 
 
-I needed to regulate my own temperature.
+Where once All-Hands meetings had open questions, now you’re forced to take the questions ahead of time. Or not at all. 
 
----
+Even your Slack usage dwindles, because half the time you say anything, someone’s upset with it. 
 
-Not too long after that, I was trained to be a firefighter in the Navy. This was not unusual: pretty much everyone in the Navy gets firefighting training. 
+We tell ourselves we're "staying close to the ground" and "maintaining our culture,” But we're not. We can't. Because the fundamental math doesn't work. The sheer volume of feedback we’re getting absolutely overwhelms our ability to process it.
 
-There are approximately a million ways a ship can catch fire, and a fire is pretty much the worst possible thing that could happen on a ship. It’s not like you can all meet up in the parking lot and then go to Starbucks if an alarm goes off. You are trapped on a burning steel box, and your choices are to put out the fire, burn or drown. The threat of fire tends to focus your attention.
+## So what do you do about it?
+First, you have to admit the problem exists. Stop pretending you can maintain personal relationships with 200 people. You can't. Nobody can. Once you accept this, you can start building systems and processes that work with this reality instead of bumping against it. You have to filter, sort, and collate the feedback coming in, and you need to do it at a scale larger than your own capacity. 
 
-The first rule I learned in firefighting? Never lose your head. Adrenaline doesn’t put out fires. Keep cool, remember what you know, and fight the fire. Methodically. Never run around like you are on fire, because it’s a good way to be on fire. 
+When you can’t rely on “just talk to people,” you need systems that distinguish between:
+* legitimate issues
+* noise
+* venting
+* misunderstandings
+* and “this person is projecting a whole other problem onto leadership”
 
-Panic spreads like flames; keeping cool contains it.
+That means: structured listening, actual intake processes, and ways to synthesize themes instead of reacting to every single spike.
 
----------
+**Build proxy relationships.** You can't know 200 people, but you can know 10 people who each know 10 people. You should already have strong, trusting relationships with your leadership team, and then set the expectation that they have strong relationships with their own teams, and explicitly ask what’s on people’s minds. When feedback comes up through this chain, it comes with context. Pay attention.
 
-Much later in my career, I was asked to step in and fix a flailing program. The ex-program manager departed amid mutual exasperation. The team was frustrated. Team leadership was even more frustrated. 
+At small scale, trust is direct: *I know you. You know me.* At larger scale, trust must be delegated: *I trust the leaders who are closer to the work than I am.* If you don’t intentionally empower those leaders to absorb and contextualize feedback, you’ll drown. They’re the ones who can say: "I know who said that, why they said it, and here’s what’s actually going on."
 
-Tensions were high and not much was getting done. A team of nearly 50 people wasn’t even sure what they were supposed to do or how to do it. And they were really frustrated with being forced to react to constant, nonsensical, forever-urgent demands.
+**Build structured channels for feedback**. For example, you can set up working groups to dive into thorny problems. The people closest to the problem understand it better than you do, and they can turn a flood of complaints into something you can actually act on. Or consider starting an "employee steering committee" for the sole purpose of collecting feedback and turning it into proposals. You’re essentially deputizing people who care deeply to listen for you, and then manage the feedback din.
 
-We took a deep breath and just… talked. We talked with one another. We talked with our stakeholders. We talked with everyone on the program, at all levels.
+**Remember that every angry message is still a person.** When someone you know well gives you feedback, you might not like it, but you’re likely to say "Oof. Okay. Let’s talk." At scale, you need to find ways to respond with humanity — even when the feedback you received lacks it.
 
-And we listened. We trusted.
+**Close the feedback loop.** Let people know when you’re acting on their feedback, and if you’re not going to act on it, let them know that you at least heard it. Nobody wants to feel unheard. 
 
-As we gave people some space to think and talk, we found there were an awful lot of good ideas on how to best move forward. So we did that, one step at a time. Calmly. Cooly.
+In fact, you'll probably think — if you haven't done it already — that you should have an anonymous comment system to capture feedback. Don't. It's a trap. Anonymous feedback is the most contextless feedback you'll get, which makes it the least actionable. And it inevitably turns out to be contradictory or lacking key information, all those folks feel even more unheard and unhappy than before. 
 
-About two weeks in, you could feel a collective exhale across timezones as the team started to realize, “Hey, we’ve done this before. We know what to do.” 
+Finally, accept that you're going to get it wrong sometimes, and own that. You're going to ignore feedback that turns out to be important. You're going to overreact to feedback that turns out to be noise. When you make a misstep, be transparent about how you're correcting it. 
 
-Within 60 days the program was knocking it out of the park.
+## The uncomfortable truth
+Past a certain size, you have to make peace with the fact that a lot of people in your org are going to be frustrated with you, and you're going to have no idea why, and you may not going to be able to fix it.
 
-We had regulated our own temperature.
+Not because you're a bad leader. Not because you don't care. But because feedback doesn't scale, relationships don't scale, and the alternative—trying to maintain authentic personal connections with hundreds of people—is a recipe for burnout and failure.
 
----
+This is genuinely hard to accept, especially if you came up through the early days when you did know everyone. That version of leadership was real, and it worked, and it probably felt really good. But it doesn't work anymore, and pretending it does just makes things worse.
 
-Chaos is contagious. It spreads. Once a leader broadcasts panic, it infects every meeting, message, and decision. People get wired for overreaction, and every action becomes loud, busy, and brittle.
+-----
 
-Calm absorbs chaos, translates it into clarity, and create psychological space for focus. People move with purpose, without flailing, without thrashing, without fear. Calm isn’t passive — it’s an act of design. You can’t just _be_ calm, you have to _create_ calm. 
-
-Leaders should know how to regulate temperature: When to turn up the heat, when to vent pressure, and when to open a window.  Sometimes the stakes really *are* high, and people need to see them more clearly — not to panic, but to engage.  Even then, it’s not about yelling or throwing deadlines around, it’s about focusing energy. That should be deliberate and measured, not smoke for the sake of smoke. Heat should warm, not incinerate. 
-
-But most times people need space and environmental control to do their best work. So the question is simple: When things catch fire, are you adding fuel — or controlling the temperature?
-
----- 
-
-Fires are going to come — real ones.
-The newsroom kind. The shipboard kind. The program-is-falling-apart kind.
-
-You can’t stop the sparks, but you can decide whether you spread them.
-
-Arsonists set everything on fire. Thermostats build teams that don’t combust.
-
-*Note: Every one of these stories is 100% true and I was really there for each of these. If we ever find ourselves sharing a beverage or two I may share the juicier details.*
+_Note: The photo is of a large crowd gathering for a union meeting during the 1933 New York Dressmakers Strike. That's scaling feedback._
