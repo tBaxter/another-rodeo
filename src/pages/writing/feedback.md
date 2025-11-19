@@ -26,7 +26,7 @@ Suddenly you have people whose names you don’t recognize offering very sharp c
 
 *Who are these people? Why are they yelling at me? Are they generally reasonable, or do they complain about everything? Do they understand the constraints we're under? Do they have the full picture?*
 
-Without an existing relationship, it feels like an attack, and your natural human response is to dismiss the criticism. Or worse, to get defensive. Attacks trigger our most primal instincts: fight or flight.
+Without an existing relationship, it feels like an attack, and your natural human response is to dismiss or deflect the attack. Or worse, to get defensive. Attacks trigger our most primal instincts: fight or flight.
 
 This is the point where a lot of leaders start to struggle. They still want to be open to feedback—they really do—but they're also drowning. They start trusting their intuition about what they should pay attention to and what they should ignore. Sometimes that intuition is right. Sometimes it's just... self-selected, stripped of context, pattern matching against existing biases and relationships.
 
