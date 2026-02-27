@@ -2,7 +2,7 @@
 title: "About this site"
 description: "We're doing it live! Whatever this site becomes, we're gonna build it out in the open so everybody can see all the half-baked ideas and dead ends."
 parent: 'Web Things'
-date: 2025-09-03
+date: 2026-02-25
 
 tags:
   - about
@@ -11,13 +11,19 @@ tags:
 img_path: /img/web-things/
 thumb: building-it.jpeg
 ---
+
+### Feb 26, 2026
+We have a fairly significant new update, with the addition of a  "Shop Notes" section. The idea here is that a lot of the projects I've been working on don't really warrant a giant write-up. Maybe they're small projects, or experiments, or maybe I don't really know what I'm doing but I'm trying it anyway to see what I learn. Sometimes these things are interesting, though, so it seems nice to share.
+
 ### Sept 3, 2025
 I either forgot to update this change log for a long time, or forgot to update the site for a year and a half (other than content updates). Either way, I finally got sick of using someone else's template and am rolling out a fairly comprehensive styling refresh. I hope you like it. Let me know what seems broke.
 
 Almost an afterthought, but I also added some image optimization code.
 
+
 ### April 8
-I skipped some small updates over the past few weeks, but today sees the launch of some fairly major typography and hero image changes. 
+I skipped some small updates over the past few weeks, but today sees the launch of some fairly major typography and hero image changes.
+
 
 ### Mar 15
 I've recently added a linkroll and [links page](/links), along with a page [about me](/about-carter). I'm thinking a bit about the [about | ideas |now model](https://aboutideasnow.com/about) but don't honestly know if I want to keep up with updating all those pages. Seems like a lot.

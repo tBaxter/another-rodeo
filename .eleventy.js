@@ -81,6 +81,33 @@ module.exports = function (eleventyConfig) {
       return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("d LLLL yyyy");
     }
   });
+
+  // ISO date for machine-readable datetime attributes
+  eleventyConfig.addFilter("dateIso", dateObj => {
+    if (!dateObj) return null;
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toISO();
+  });
+
+  // human-readable date (alias of prettyDate)
+  eleventyConfig.addFilter("dateReadable", dateObj => {
+    if (dateObj) {
+      return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("d LLLL yyyy");
+    }
+  });
+
+  // excerpt filter for generating short previews
+  eleventyConfig.addFilter("excerpt", (content) => {
+    const excerptLength = 150;
+    if (!content) return "";
+    if (content.length <= excerptLength) return content;
+    return content.substr(0, excerptLength) + '...';
+  });
+
+  // limit filter to limit arrays
+  eleventyConfig.addFilter("limit", (array, limit) => {
+    if (!Array.isArray(array)) return [];
+    return array.slice(0, limit);
+  });
  
   //--------------------------------------------------
   // Collections
@@ -114,6 +141,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("writing", function (collectionApi) {
     return collectionApi.getFilteredByTags("writing");
+  });
+  eleventyConfig.addCollection("shopnotes", function (collectionApi) {
+    return collectionApi.getFilteredByTags("shopnotes");
   });
   eleventyConfig.addCollection("links", function (collectionApi) {
     return collectionApi.getFilteredByTags("link").reverse().slice(0, 15);

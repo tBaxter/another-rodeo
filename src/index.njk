@@ -16,6 +16,29 @@ layout: base.njk
       {%- endfor %}
     </div>
   </section>
+  
+  {# Shop Notes Module - added per IMPLEMENTATION_GUIDE #}
+  <section class="shop-notes-module">
+    <div class="shop-notes-ribbon">
+      <h2>Shop Notes</h2>
+      
+      {% set recentShopNotes = collections.shopnotes | reverse | limit(4) %}
+      {% for note in recentShopNotes %}
+      <article class="shop-note-card">
+        {% if note.data.image and note.data.image.trim() %}
+        <div class="shop-note-image-wrapper">
+          <img class="shop-note-image" src="{{ note.data.image }}" alt="{{ note.data.title }}">
+        </div>
+        {% endif %}
+
+        <div class="shop-note-body">
+          <h4><a href="{{ note.url }}">{{ note.data.title }}</a></h4>
+          <div class="shop-note-date">{{ note.date | prettyDate }}</div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
   <section class="older">
     <h2 class="section-title">Older Rodeos</h2>
     <div class="older-list">

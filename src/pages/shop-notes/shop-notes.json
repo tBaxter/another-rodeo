@@ -1,0 +1,10 @@
+{
+  "tags": "shopnotes",
+  "permalink": "/shop-notes/{{ page.fileSlug }}/",
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "key": "{{ title }}",
+      "parent": "Shop Notes"
+    }
+  }
+}
