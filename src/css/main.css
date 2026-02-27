@@ -59,6 +59,183 @@
   }
 }
 
+  /* Small Shop Notes additions — minimal, appended to existing CSS
+     Kept intentionally small to avoid rearchitecting the site's styles.
+  */
+  .shop-notes-module {
+    background: var(--rule);
+    padding: 0;
+    margin-bottom: 2rem;
+    border-top: 2px solid var(--rule);
+    border-bottom: 2px solid var(--rule);
+  }
+
+  /* Ribbon layout for homepage shop-notes */
+  .shop-notes-ribbon {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    align-items: stretch;
+    border-collapse: collapse;
+  }
+
+  .shop-notes-ribbon h2 {
+    font-size: var(--step--1);
+    margin: 0;
+    padding: 0.75rem;
+    font-weight: 700;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    background: var(--rule);
+    border-right: 1px solid #d0d0d0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .shop-note-card {
+    background: var(--rule);
+    border: none;
+    border-right: 1px solid #d0d0d0;
+    padding: 0.75rem;
+    overflow: hidden;
+    transition: background 0.2s ease;
+  }
+
+  .shop-note-card:last-child {
+    border-right: none;
+  }
+  
+  .shop-note-card:hover {
+    background: #e8e8e8;
+  }
+
+  .shop-note-image-wrapper {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+  }
+
+  .shop-note-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .shop-note-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shop-note-card h4 {
+    font-size: var(--step--1);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  .shop-note-card h4 a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .shop-note-card h4 a:hover {
+    color: var(--accent);
+  }
+
+  .shop-note-date {
+    color: var(--ink-muted);
+    font-size: var(--step--2);
+    margin-top: auto;
+  }
+
+  @media (max-width: 880px) {
+    .shop-notes-ribbon {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .shop-note-card {
+      border-right: 1px solid #d0d0d0;
+      border-bottom: 1px solid #d0d0d0;
+    }
+
+    .shop-note-card:nth-child(4n) {
+      border-right: none;
+    }
+
+    .shop-note-card:nth-last-child(-n+3) {
+      border-bottom: none;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .shop-notes-ribbon {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shop-note-card {
+      border-right: 1px solid #d0d0d0;
+      border-bottom: 1px solid #d0d0d0;
+    }
+
+    .shop-note-card:nth-child(odd) {
+      border-right: 1px solid #d0d0d0;
+    }
+
+    .shop-note-card:nth-child(even) {
+      border-right: none;
+    }
+
+    .shop-note-card:nth-last-child(-n+2) {
+      border-bottom: none;
+    }
+  }
+
+  /* single note page styles */
+  .shop-note-single {
+    max-width: var(--max-prose);
+    margin: 0 auto;
+  }
+  .shop-note-single .shop-note-header {
+    margin-bottom: var(--space-md);
+  }
+  .shop-note-single .shop-note-header h1 {
+    font-size: var(--step-2);
+    margin: 0;
+  }
+  .shop-note-single .shop-note-header .meta {
+    color: var(--ink-muted);
+    font-size: var(--step--1);
+    margin-top: var(--space-sm);
+  }
+  .shop-note-single .shop-note-image {
+    margin-bottom: var(--space-md);
+  }
+  .shop-note-single .shop-note-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius);
+  }
+  .shop-note-single .shop-note-content {
+    line-height: var(--lh);
+  }
+  .shop-note-single .external-link {
+    margin-top: var(--space-md);
+  }
+  .shop-note-single .post-nav {
+    margin-top: var(--space-xl);
+  }
+  .shop-note-single .post-nav a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .shop-note-single .post-nav a:hover {
+    text-decoration: underline;
+  }
+
 body {
   background: var(--bg);
   color: var(--ink);

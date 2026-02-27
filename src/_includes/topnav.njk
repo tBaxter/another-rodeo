@@ -37,6 +37,9 @@
             </a>
           </li>
         {%- endfor %}
+        <li>
+          <a href="/shop-notes/" {% if currentUrl == '/shop-notes/' %}aria-current="page"{% endif %}>Shop Notes</a>
+        </li>
       </ul>
     </nav>
     <span class="site-description">{{ meta.siteDescription }}</span>
