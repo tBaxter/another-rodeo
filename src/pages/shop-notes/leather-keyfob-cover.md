@@ -3,9 +3,6 @@ title: "A leather toolroll"
 date: 2026-02-05
 description: "Hand-stitching a leather toolroll."
 img_path: /img/shop-notes/leather/
-tags:
-  - leather
-  - shop-note
 ---
 
 I've wanted to take up leather crafting for awhile. It's another one of those built-for-the-long-haul analog things that appeals when one spends their whole career in tech.
