@@ -1,7 +1,7 @@
 {
   "name": "11ty-netlify-jumpstart",
   "version": "2.0.1",
-  "description": "Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, generated sitemap, and RSS feed.",
+  "description": "Quickly launch an 11ty-generated static site. Includes generated sitemap, and RSS feed.",
   "main": "index.html",
   "scripts": {
     "start": "eleventy --serve",
@@ -29,11 +29,5 @@
   "browserslist": [
     "> 0.25%",
     "not dead"
-  ],
-  "dependencies": {
-    "@11ty/eleventy-img": "^6.0.4",
-    "@11tyrocks/eleventy-plugin-sass-lightningcss": "^1.2.0",
-    "bookmarklet": "^3.0.0",
-    "glob": "^10.3.10"
-  }
+  ]
 }

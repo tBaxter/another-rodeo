@@ -1,7 +1,6 @@
 // 11ty Plugins
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const eleventySass = require("@11tyrocks/eleventy-plugin-sass-lightningcss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 // Helper packages
@@ -20,7 +19,6 @@ const { DateTime } = require("luxon");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(eleventySass);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPassthroughCopy("./src/fonts");
