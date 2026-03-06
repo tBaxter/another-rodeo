@@ -26,6 +26,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/favicon.png");
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
 
+  eleventyConfig.ignores.add("src/drafts/**");
+
+
   // TO-DO: Move these into shortcodes folder
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   // adds ability to easily create figure/figcaption
