@@ -11,8 +11,9 @@ layout: base.njk
       {% endif %}
       {{ content | safe }}
       <small>
+        Have something you'd like to say about this? <a href="/contact">Let me know</a>! | 
         Published <time>{{ date | prettyDate }}</time>
         {% if parent %} in {{ parent }}{% endif %}
-      </small>
+   
     </article>
 </main>
