@@ -17,10 +17,15 @@
     <link rel="icon" href="{{ '/img/horseshoe.svg' | url }}?v=4" />
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ meta.siteName }}" href="/feed/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@another.rodeo" />
     <meta property="og:title" content="{{pageTitle}}" />
+    <meta name="twitter:title" content="{{pageTitle}}" />
     <meta property="og:description" content="{{pageDescription}}" />
+    <meta name="twitter:description" content="{{pageDescription}}" />
     {% if thumb %}
       <meta property="og:image" content="https://another.rodeo{{img_path}}{{thumb}}" />
+      <meta name="twitter:image" content="https://another.rodeo{{img_path}}{{thumb}}"/>
     {% else %}
       <meta property="og:image" content="https://another.rodeo/img/horseshoe.svg" />
     {% endif %}
@@ -42,7 +47,6 @@
             • <a href="/about-carter">Carter Baxter</a>
             • <a href="/links">Links</a>
             • <a href="/contact">Contact</a>
-
           </p>
         </div>
       </footer>

@@ -15,7 +15,7 @@ thumb: engine-pattern.jpeg
 ### March 6, 2026
 A lot of fixes and updates:
 - We now have a contact page!
-- I changed the thumbnail image for this page, so I didn't have to look at that AI-generated "art" every time the page loaded.
+- I changed the thumbnail image for this page, so I didn't have to look at that AI-generated "art" every time the page loaded. The image is from [Model making; including workshop practice, design and construction of models, a practical treatise for the amateur and professional mechanic. (1919)](https://commons.wikimedia.org/wiki/File:Model_making;_including_workshop_practice,_design_and_construction_of_models,_a_practical_treatise_for_the_amateur_and_professional_mechanic.._(1919)_(14795979353).jpg)
 - Fixed some image resizing bugs.
 - Finally removed the last traces of Sass.
 
