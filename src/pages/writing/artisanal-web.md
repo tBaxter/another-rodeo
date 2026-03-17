@@ -79,7 +79,7 @@ If you care about becoming an influencer, you have to play the platform game. Th
 
 But if you’re not really interested in playing the game — if you just want to make things because making things matters — the craft tradition is still there.
 
-Thankfully I'm not the only one thinking this way. There are a lot of us opting for the "small workshop" model. [Matthias Ott](https://matthiasott.com) has been championing personal sites for some time, and he maintains the [Own Your Web](https://buttondown.com/ownyourweb) newsletter. Andy Bell has catalogued nearly 900 artisanal web sites over on [personalsit.es](personalsit.es). Even webrings are making a quiet comeback. RSS, declared dead a dozen times, keeps getting rediscovered by people who want to follow humans instead of algorithms.
+Thankfully I'm not the only one thinking this way. There are a lot of us opting for the "small workshop" model. [Matthias Ott](https://matthiasott.com) has been championing personal sites for some time, and he maintains the [Own Your Web](https://buttondown.com/ownyourweb) newsletter. Andy Bell has catalogued nearly 900 artisanal web sites over on [personalsit.es](https://personalsit.es). Even webrings are making a quiet comeback. RSS, declared dead a dozen times, keeps getting rediscovered by people who want to follow humans instead of algorithms.
 
 Amidst all the commoditization there are small human spaces out there, waiting to be discovered, with people working diligently and with care in them.
 

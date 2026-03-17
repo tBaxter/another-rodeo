@@ -3,5 +3,5 @@ module.exports = {
   siteName: "Another Rodeo",
   siteDescription:
     "A compendium of assorted projects, experiments, notions and whimsies. Nobody told me there would be so many rodeos.",
-  authorName: "Carter Baxter",
+  authorName: "Carter Baxter"
 };

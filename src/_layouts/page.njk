@@ -14,6 +14,7 @@ layout: base.njk
         Have something you'd like to say about this? <a href="/contact">Let me know</a>! | 
         Published <time>{{ date | prettyDate }}</time>
         {% if parent %} in {{ parent }}{% endif %}
-   
+      </small>
     </article>
+    {% jsonld_post %}
 </main>

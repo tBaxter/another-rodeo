@@ -110,6 +110,34 @@ module.exports = function (eleventyConfig) {
     if (!Array.isArray(array)) return [];
     return array.slice(0, limit);
   });
+
+  eleventyConfig.addShortcode("jsonld_post", function(pagedata) {
+    const defaults = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "name": this.ctx.meta.siteName || "Another Rodeo",
+      "url": "https://another.rodeo" + this.page.url,
+      "headline": this.ctx.title,
+      "description": this.ctx.longDesc ||this.ctx.description,
+      "datePublished": this.ctx.date,
+      "image": [
+        "https://another.rodeo" + this.ctx.img_path + this.ctx.thumb,
+       ],
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://another.rodeo/about-carter"
+      },
+      "publisher": {
+        "@id": "https://another.rodeo/about-carter"
+      },
+      // Add other default properties here
+    };
+
+
+    // Merge page-specific data over the defaults
+    const schema = { ...defaults, ...pagedata };
+    return `<script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>`;
+  });
  
   //--------------------------------------------------
   // Collections
